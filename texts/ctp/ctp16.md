@@ -8,7 +8,7 @@
 
 05 jiang liú waan zhuaan rào fang diàn
 06 yuè zhào hua lín jie sì xian
-07 kong lii liù shuang bù jué fei
+07 kong lii liú shuang bù jué fei
 08 ting shàng bái sha kàn bù jiàn
 
 09 jiang tian yi sè wú xian chén
@@ -26,7 +26,7 @@
 19 shuí jia jin yè pian zhou zii
 20 hé chù xiang si míng yuè lóu
 
-21 ké lián lóu shàng yuè péi huí
+21 kee lián lóu shàng yuè péi huí
 22 ying zhào lí rén zhuang jìng tái
 23 yù hù lián zhong juaan bù qù
 24 daao yi zheng shàng fú huán lái
@@ -61,17 +61,17 @@
 11 江畔何人初見月
 12 江月何年初照人
 
-13 人生代代無窮巳
+13 人生代代無窮己
 14 江月年年祇相似
 15 不知江月待何人
 16 旦見長江送流水
 
 17 白雲一片去悠悠
 18 青楓浦上不勝愁
-19 誰家今夜片舟子
+19 誰家今夜扁舟子
 20 何處相思明月樓
 
-21 何憐樓上月裴回
+21 可憐樓上月裴回
 22 應照離人妝鏡臺
 23 玉戶簾中卷不去
 24 擣衣砧上拂還來
