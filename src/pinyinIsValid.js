@@ -1,4 +1,4 @@
-const pinyin = require('pinyin')
+const pinyin = require('mini-pinyin')
 
 const removeLineNumbers = (text) => text.replace(/^\s*[0-9]+\s*/, '')
 
@@ -7,17 +7,17 @@ const PINYIN_MODIFICATIONS = {
   ['Ā']: 'A', ['Ē']: 'E', ['Ī']: 'I', ['Ō']: 'O', ['Ū']: 'U', ['Ǖ']: 'Yu',
   ['ǘ']: 'yú', ['Ǘ']: 'Yú',
   ['ǎ']: 'aa', ['ě']: 'ee', ['ǐ']: 'ii', ['ǒ']: 'oo', ['ǔ']: 'uu', ['ǚ']: 'yuu',
-  ['ǜ']: 'yú', ['Ǜ']: 'Yú',
+  ['ǜ']: 'yù', ['Ǜ']: 'Yù',
 }
 const toModifiedPinyin = (standardPinyin) => standardPinyin.replace(/./g, (char) =>
   PINYIN_MODIFICATIONS[char] || char
 )
 
+
 module.exports = function pinyinIsValid(hanzi, ruby) {
-  if (!ruby) console.log(hanzi)
   const givenReadings = removeLineNumbers(ruby.trim()).split(/\s+/)
   return [...removeLineNumbers(hanzi).trim()].every((character, i) => {
-    const [expectedReadings] = pinyin(character, { heteronym: true })
+    const expectedReadings = pinyin(character)
     return expectedReadings.some(reading =>
       toModifiedPinyin(reading) === givenReadings[i]
     )

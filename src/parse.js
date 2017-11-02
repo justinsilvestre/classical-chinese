@@ -16,7 +16,7 @@ const lastIn = (arr) => arr[arr.length - 1]
 
 module.exports = function parse(parallelText) {
   const { children } = parseMarkdown(parallelText)
-  return children.reduce((collections, node) => {
+  const parsed = children.reduce((collections, node) => {
     const { type, depth } = node
     if (type === 'Header' && depth === 1) {
       collections.push({ name: node.children[0].value, passages: [] })
@@ -35,16 +35,29 @@ module.exports = function parse(parallelText) {
       text.split(/\s*\n+\s*/).forEach(line => {
         currentPassage[fieldType].push(line)
       })
-      const invalidGloss = fieldType === 'original' ? currentPassage.original.findIndex((line, i) =>
-        !pinyinIsValid(line, currentPassage.ruby[i])
-      ) : -1
-      if (invalidGloss !== -1) {
-        console.log(invalidGloss)
-        throw new Error(`Invalid ruby text in ${currentPassage.name}: ${currentPassage.original[invalidGloss]} (${currentPassage.ruby[invalidGloss]})`)
-      }
+      // const unmatchedGloss = fieldType === 'original'
+      //   ? !pinyinIsValid(currentPassage.original.findIndex((line, i) =>
+      //   (line, currentPassage.ruby[i])
+      // ) : -1
+      // if (unmatchedGloss !== -1) {
+      //   console.error(`Check ruby text for ${currentPassage.name}: ${currentPassage.original[unmatchedGloss]} (${currentPassage.ruby[unmatchedGloss]})`)
+      // }
     } else {
       throw new Error(`Invalid format: ${JSON.stringify(node)}`)
     }
     return collections
   }, [])
+
+  parsed.forEach(({ name: collectionName, passages }) => {
+    passages.forEach(({ original, ruby, name: passageName }) => {
+      original.forEach((line, lineNumber) => {
+        const rubyLine = ruby[lineNumber]
+        if (!pinyinIsValid(line, rubyLine)) {
+          console.warn(`Check ruby text for ${collectionName}, ${passageName}: ${line} (${rubyLine})`)
+        }
+      })
+    })
+  })
+
+  return parsed
 }

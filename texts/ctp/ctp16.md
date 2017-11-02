@@ -17,7 +17,7 @@
 04 Where on the springtime river is there no moonlight? (= It is everywhere.)
 
 05 jiang liú waan zhuaan rào fang diàn  
-06 yuè zhào hua lín jie sì xian  
+06 yuè zhào hua lín jie sì xiàn  
 07 kong lii liú shuang bù jué fei  
 08 ting shàng bái sha kàn bù jiàn
 

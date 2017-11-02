@@ -93,7 +93,6 @@ ${PASSAGE_3.translation}
 
 describe('parse', () => {
   const parsed = parse(TEXT)
-
   const [collection1, collection2] = parsed
 
   it('parses collections', () => {

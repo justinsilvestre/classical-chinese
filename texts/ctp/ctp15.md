@@ -86,15 +86,20 @@ xi xià é méi feng
 wèi woo yi hui shoou  
 rú ting wàn hè song
 
-kè xin xii liú shuii  
-yù xiaang rù shuang zhong  
-bù jué bì shan mù  
-qiu yún àn jii chóng
-
 蜀僧抱綠綺  
 西下峨眉峰  
 為我一揮手  
 如聽萬壑松
+
+A Sichuan monk, cradling a Green Silk lute,  
+Westward descends Mt. Emei's peak.  
+A single brush of his hand for me  
+Is like listening to pines in a myriad valleys.
+
+kè xin xii liú shuii  
+yú xiaang rù shuang zhong  
+bù jué bì shan mù  
+qiu yún àn jii chóng
 
 客心洗流水  
 餘響入霜鐘  
@@ -105,8 +110,3 @@ Flowing water washes over my heart;
 The frost-chilled sound of his temple-bell enters the dying notes.  
 I had not been aware that in the green hill's dusk  
 The autumn clouds had darkened severalfold.
-
-A Sichuan monk, cradling a Green Silk lute,  
-Westward descends Mt. Emei's peak.  
-A single brush of his hand for me  
-Is like listening to pines in a myriad valleys.
