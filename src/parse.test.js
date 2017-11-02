@@ -24,10 +24,10 @@ const PASSAGE_2 = {
     `1 zhòu yuu qing qiu yè
     2 jin bo geeng yù shéng
     3 tian hé yuán zì bái
-    4 jiang puu xiang lái chéng`,
+    4 jiang puu xiàng lái chéng`,
     `5 yìng wù lián zhu duàn
     6 yuán kong yi jìng sheng
-    7 yù guang yiin geng lòu
+    7 yú guang yiin geng lòu
     8 kuàng naai lù huá níng`,
   ],
   original: [
@@ -84,7 +84,10 @@ ${PASSAGE_2.translation[1]}
 # collectionName2
 ## ${PASSAGE_3.name}
 
+${PASSAGE_3.ruby}
+
 ${PASSAGE_3.original}
+
 ${PASSAGE_3.translation}
 `
 
