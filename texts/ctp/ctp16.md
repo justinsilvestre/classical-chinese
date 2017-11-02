@@ -23,7 +23,7 @@
 
 05 江流宛轉遶芳甸  
 06 月照花林皆似霰  
-07 空裹流霜不覺飛  
+07 空裏流霜不覺飛  
 08 汀上白沙看不見
 
 05 The river's flow snakes around meadows fragrant [with flowers];  
@@ -49,9 +49,9 @@
 13 rén sheng dài dài wú qióng yii  
 14 jiang yuè nián nián zhi xiang sì  
 15 bù zhi jiang yuè dài hé rén  
-16 dán jiàn cháng jiang sòng liú shuii
+16 dàn jiàn cháng jiang sòng liú shuii
 
-13 人生代代無窮己  
+13 人生代代無窮已  
 14 江月年年祇相似  
 15 不知江月待何人  
 16 旦見長江送流水
@@ -129,7 +129,7 @@
 33 斜月沉沉藏海霧  
 34 碣石瀟湘無限路  
 35 不知乘月幾人歸  
-36 落月搖情滿江𣗳
+36 落月搖情滿江樹
 
 33 The slanting moon sinks heavily, hidden in the mist from the sea;  
 34 [Between] the North and the South the road is endless.  
