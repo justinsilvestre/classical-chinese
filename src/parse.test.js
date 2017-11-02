@@ -72,13 +72,13 @@ ${PASSAGE_1.translation}
 
 ${PASSAGE_2.ruby[0]}
 
-${PASSAGE_2.ruby[1]}
-
 ${PASSAGE_2.original[0]}
 
-${PASSAGE_2.original[1]}
-
 ${PASSAGE_2.translation[0]}
+
+${PASSAGE_2.ruby[1]}
+
+${PASSAGE_2.original[1]}
 
 ${PASSAGE_2.translation[1]}
 # collectionName2
@@ -119,5 +119,12 @@ describe('parse', () => {
       original: splitLines(PASSAGE_2.original.join('\n')),
       translation: splitLines(PASSAGE_2.translation.join('\n')),
     })
+  })
+
+  it('throws an error if syntax other than headers (1 and 2) and paragraph is used', () => {
+    expect(() => parse(`
+      - this is a list item
+      - this is a list item
+    `)).toThrow()
   })
 })
