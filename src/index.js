@@ -3,12 +3,17 @@ const { argv } = require('yargs')
 const parse = require('./parse')
 const HAN_CHARACTERS = require('./hanCharacters')
 
-const { _: filenames, out = 'flashcards.csv', mhz: minimumHanziLength = 8 } = argv
+const {
+  _: filenames,
+  out = 'flashcards.csv',
+  mhz: minimumHanziLength = 8,
+  sp: splitPassage = 'byLines',
+} = argv
 
 const text = filenames
   .map(filename => readFileSync(filename, 'utf8'))
   .join('\n')
-const parsed = parse(text)
+const parsed = parse(text, splitPassage)
 
 const newLineBuffer = () => ({
   original: [],

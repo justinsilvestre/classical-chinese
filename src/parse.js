@@ -14,7 +14,26 @@ const getFieldType = (text, { ruby, original, translation }) => {
 
 const lastIn = (arr) => arr[arr.length - 1]
 
-module.exports = function parse(parallelText) {
+const SPLIT_PASSAGE = {
+  byParagraphs({ type, raw }, collections) {
+    const { passages } = lastIn(collections)
+    const currentPassage = passages[passages.length - 1]
+    const fieldType = getFieldType(raw, currentPassage)
+    raw.split(/\s*\n{2,}\s*/).forEach(line => {
+      currentPassage[fieldType].push(line)
+    })
+  },
+  byLines({ type, raw }, collections) {
+    const { passages } = lastIn(collections)
+    const currentPassage = passages[passages.length - 1]
+    const fieldType = getFieldType(raw, currentPassage)
+    raw.split(/\s*\n+\s*/).forEach(line => {
+      currentPassage[fieldType].push(line)
+    })
+  }
+}
+
+module.exports = function parse(parallelText, splitPassage = 'byLines') {
   const { children } = parseMarkdown(parallelText)
   const parsed = children.reduce((collections, node) => {
     const { type, depth } = node
@@ -28,13 +47,7 @@ module.exports = function parse(parallelText) {
         translation: [],
       })
     } else if (type === 'Paragraph') {
-      const { passages } = lastIn(collections)
-      const currentPassage = passages[passages.length - 1]
-      const text = node.raw
-      const fieldType = getFieldType(text, currentPassage)
-      text.split(/\s*\n+\s*/).forEach(line => {
-        currentPassage[fieldType].push(line)
-      })
+      SPLIT_PASSAGE[splitPassage](node, collections)
     } else {
       throw new Error(`Invalid format: ${JSON.stringify(node)}`)
     }
@@ -51,6 +64,5 @@ module.exports = function parse(parallelText) {
       })
     })
   })
-
   return parsed
 }

@@ -1,6 +1,6 @@
 # ddj01
 
-## daodejing 1
+## 1
 
 dào kee dào  
 fei cháng dào  
@@ -17,7 +17,7 @@ but not the Perennial Way;
 By names you may name,  
 but not the Perennial Name.
 
-wú míng tian dì zhi shii
+wú míng tian dì zhi shii  
 yoou míng wàn wù zhi muu
 
 無名天地之始  
@@ -32,7 +32,7 @@ cháng yoou yù yii guan qí jiào
 故常無欲以觀其妙  
 常有欲以觀其徼
 
-Therefore, be ever without yearning so as to observe her obscurity;
+Therefore, be ever without yearning so as to observe her obscurity;  
 Be ever full of yearning so as to observe what she longs for.
 
 cii liaang zhee tóng chu ér yì míng

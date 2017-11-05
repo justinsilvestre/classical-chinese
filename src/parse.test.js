@@ -47,7 +47,7 @@ const PASSAGE_2 = {
     4 How clear [the water by] the bank has been all along.`,
     `5 When reflected in things the connected beads (= stars) snap;
     6 Climbing the void, a single mirror (= moon) rises.
-    7 The night-watch water-clock dims the fading light (of stars and moon).
+    7 The night-watch water-clock dims the fading light (of stars and moon).  
     8 The more so as the splendour of the dew condenses (and compensates for it).`,
   ]
 }
@@ -120,6 +120,18 @@ describe('parse', () => {
       ruby: splitLines(PASSAGE_2.ruby.join('\n')),
       original: splitLines(PASSAGE_2.original.join('\n')),
       translation: splitLines(PASSAGE_2.translation.join('\n')),
+    })
+  })
+
+  it('parses multi-paragraph passage by paragraphs with byParagraphs', () => {
+    const parsed = parse(TEXT, 'byParagraphs')
+    const [collection1] = parsed
+    const { passages: [, passage] } = collection1
+    expect(passage).toEqual({
+      name: 'passageName2',
+      ruby: PASSAGE_2.ruby,
+      original: PASSAGE_2.original,
+      translation: PASSAGE_2.translation,
     })
   })
 
