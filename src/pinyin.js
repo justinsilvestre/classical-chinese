@@ -13,8 +13,7 @@ const toModifiedPinyin = (standardPinyin) => standardPinyin.replace(/./g, (char)
   PINYIN_MODIFICATIONS[char] || char
 )
 
-
-module.exports = function pinyinIsValid(hanzi, ruby) {
+function pinyinIsValid(hanzi, ruby) {
   const givenReadings = removeLineNumbers(ruby.trim()).split(/\s+/)
   return [...removeLineNumbers(hanzi).trim()].every((character, i) => {
     const expectedReadings = pinyin(character)
@@ -23,3 +22,5 @@ module.exports = function pinyinIsValid(hanzi, ruby) {
     )
   })
 }
+
+module.exports = { toModifiedPinyin, pinyinIsValid }

@@ -3,8 +3,7 @@ const { argv } = require('yargs')
 const parse = require('./parse')
 const HAN_CHARACTERS = require('./hanCharacters')
 
-const MINIMUM_HANZI_LENGTH = 8
-const { _: filenames, out = 'flashcards.csv' } = argv
+const { _: filenames, out = 'flashcards.csv', mhz: minimumHanziLength = 8 } = argv
 
 const text = filenames
   .map(filename => readFileSync(filename, 'utf8'))
@@ -31,7 +30,7 @@ const lengthenLines = (passages) => {
 
       const hanInBuffer = lineBuffer.original.join('').match(HAN_CHARACTERS) || []
 
-      if (i === original.length - 1 || hanInBuffer.length >= MINIMUM_HANZI_LENGTH) {
+      if (i === original.length - 1 || hanInBuffer.length >= minimumHanziLength) {
         newLines.original.push(lineBuffer.original.join('\n'))
         newLines.ruby.push(lineBuffer.ruby.join('\n'))
         newLines.translation.push(lineBuffer.translation.join('\n'))

@@ -1,6 +1,6 @@
 const { parse: parseMarkdown } = require('markdown-to-ast')
 const HAN_CHARACTERS = require('./hanCharacters')
-const pinyinIsValid = require('./pinyinIsValid')
+const { pinyinIsValid } = require('./pinyin')
 
 const getFieldType = (text, { ruby, original, translation }) => {
   if (HAN_CHARACTERS.test(text)) {
@@ -35,13 +35,6 @@ module.exports = function parse(parallelText) {
       text.split(/\s*\n+\s*/).forEach(line => {
         currentPassage[fieldType].push(line)
       })
-      // const unmatchedGloss = fieldType === 'original'
-      //   ? !pinyinIsValid(currentPassage.original.findIndex((line, i) =>
-      //   (line, currentPassage.ruby[i])
-      // ) : -1
-      // if (unmatchedGloss !== -1) {
-      //   console.error(`Check ruby text for ${currentPassage.name}: ${currentPassage.original[unmatchedGloss]} (${currentPassage.ruby[unmatchedGloss]})`)
-      // }
     } else {
       throw new Error(`Invalid format: ${JSON.stringify(node)}`)
     }

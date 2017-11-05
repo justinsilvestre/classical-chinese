@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
+    "modify-pinyin": "node src/modifyPinyin.js",
     "test": "jest src"
   },
   "repository": "https://github.com/justinsilvestre/classical-chinese",
