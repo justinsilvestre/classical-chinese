@@ -6,10 +6,10 @@
 03 yàn yàn suí bo qian wàn lii  
 04 hé chù chun jiang wú yuè míng
 
-春江潮水連海平  
-海上明月共潮生  
-灩灎隨波千萬里  
-何處春江無月明
+01 春江潮水連海平  
+02 海上明月共潮生  
+03 灩灎隨波千萬里  
+04 何處春江無月明
 
 01 The tide on the springtime Yangtse stretches level to the sea;  
 02 The bright moon over the sea is born together with the tide.  
