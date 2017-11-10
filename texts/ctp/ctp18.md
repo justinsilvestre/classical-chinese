@@ -19,7 +19,7 @@
 
 
 05 jiaao rú fei jìng lín dan què  
-05 lyù yan miè jìn qing hui fa  
+06 lyù yan miè jìn qing hui fa  
 07 dàn jiàn xiao cóng haai shàng lái  
 08 nìng zhi xiaao xiàng yún jian mò
 
