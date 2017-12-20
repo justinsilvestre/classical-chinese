@@ -8,7 +8,7 @@
 
 01 春江潮水連海平  
 02 海上明月共潮生  
-03 灩灎隨波千萬里  
+03 灩灩隨波千萬里  
 04 何處春江無月明
 
 01 The tide on the springtime Yangtse stretches level to the sea;  
@@ -47,14 +47,14 @@
 12 In what year did a river-moon first shine upon mankind?
 
 13 rén sheng dài dài wú qióng yii  
-14 jiang yuè nián nián zhi xiang sì  
+14 jiang yuè nián nián zhii xiang sì  
 15 bù zhi jiang yuè dài hé rén  
 16 dàn jiàn cháng jiang sòng liú shuii
 
 13 人生代代無窮已  
 14 江月年年祇相似  
 15 不知江月待何人  
-16 旦見長江送流水
+16 但見長江送流水
 
 13 Human life goes on unending from generation to generation;  
 14 The river-moon just like it (= what it was before) year after year.  
@@ -113,7 +113,7 @@
 
 29 昨夜閒潭夢落花  
 30 可憐春半不還家  
-31 江水流春去欲盡
+31 江水流春去欲盡  
 32 江潭落月復西斜
 
 29 Last night by a quiet pool I dreamed of fallen blossom;  
