@@ -5,16 +5,23 @@
 01 gu yuè dang lóu maan  
 02 hán jiang dòng yè fei  
 03 weei bo jin bù dìng  
-04 zhào xí qii yú yi  
+04 zhào xí qii yú yi
+
+01 孤月當樓滿  
+02 寒江動夜扉  
+03 委波金不定  
+04 照席綺逾依
+
+05 It is not yet waning where the empty hills are tranquil;  
+06 It hangs high where ranked constellations are fading.  
+07 In my old garden [back at home] the pines and cassia will be flourishing;  
+08 Ten thousand miles [apart] we share this pure radiance.
+
 05 wèi que kong shan jìng  
 06 gao xuán liè xiù xi  
 07 gù yuán song guì fa  
 08 wàn lii gòng qing hui
 
-01 孤月當樓滿  
-02 寒江動夜扉  
-03 委波金不定  
-04 照席綺逾依  
 05 未缺空山靜  
 06 高懸列宿稀  
 07 故園松桂發  
@@ -23,11 +30,7 @@
 01 A lonely moon is full right before my balcony;  
 02 The chill Yangtse moves my darkened casement.  
 03 Cast on the waves, the gold[en light] is restless;  
-04 As it shines on my mat, the patterns remain even more [vivid].  
-05 It is not yet waning where the empty hills are tranquil;  
-06 It hangs high where ranked constellations are fading.  
-07 In my old garden [back at home] the pines and cassia will be flourishing;  
-08 Ten thousand miles [apart] we share this pure radiance.
+04 As it shines on my mat, the patterns remain even more [vivid].
 
 ## 王建 (eighth to ninth centuries) 十五夜望月寄杜郎中
 
