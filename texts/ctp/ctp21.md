@@ -44,7 +44,7 @@
 
 01 海上生明月  
 02 天涯共此時  
-03 情人怨遥夜  
+03 情人怨遙夜  
 04 竟夕起相思
 
 01 Over the sea the bright moon is born;  
