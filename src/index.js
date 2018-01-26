@@ -1,18 +1,21 @@
 const { readFileSync, writeFileSync } = require('fs')
 const { argv } = require('yargs')
 const parse = require('./parse')
+const eachFile = require('./eachFile')
 const HAN_CHARACTERS = require('./hanCharacters')
 
 const {
-  _: filenames,
+  _: paths,
   out = 'flashcards.csv',
   mhz: minimumHanziLength = 8,
   sp: splitPassage = 'byLines',
 } = argv
 
-const text = filenames
-  .map(filename => readFileSync(filename, 'utf8'))
-  .join('\n')
+let text = ''
+paths.forEach(path =>
+  eachFile(path, filename => text += readFileSync(filename, 'utf8') + '\n')
+)
+
 const parsed = parse(text, splitPassage)
 
 const newLineBuffer = () => ({

@@ -6,13 +6,15 @@
   "scripts": {
     "start": "node src/index.js",
     "modify-pinyin": "node src/modifyPinyin.js",
-    "test": "jest src"
+    "test": "jest src",
+    "get-vocab": "node src/getVocabulary.js"
   },
   "repository": "https://github.com/justinsilvestre/classical-chinese",
   "author": "Justin Silvestre <justinsilvestre@gmail.com>",
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "fs-walk": "^0.0.1",
     "markdown-to-ast": "^5.0.0",
     "mini-pinyin": "^0.0.2",
     "yargs": "^10.0.3"
