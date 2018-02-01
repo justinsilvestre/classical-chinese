@@ -92,7 +92,7 @@
 05 香霧雲鬟濕  
 06 清輝玉臂寒  
 07 何時倚虛幌  
-08 雙照涙痕乾
+08 雙照淚痕乾
 
 05 In a fragrant mist her cloud-coiffure will be damp;  
 06 In the pure radiance her jadelike (=white) arms will be chilled.  
