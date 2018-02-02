@@ -17,7 +17,7 @@ Don't let them sing in the branches,
 For when they sing they disturb my dreams  
 So that I cannot go to Liaoxi (where her husband is stationed).
 
-## 李端 (late eighth century) 闉情
+## 李端 (late eighth century) 閨情
 
 yuè luò xing xi tian yù míng  
 gu deng wèi miè mèng nán chéng  
