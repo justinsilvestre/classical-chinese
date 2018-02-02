@@ -20,7 +20,7 @@
 5 shú qì cui huáng niaao  
 6 qíng guang zhuaan lyù pín  
 7 hu wén ge guu diào  
-8 gui sì yù zhan jin
+8 gui si yù zhan jin
 
 5 淑氣催黃鳥  
 6 晴光轉綠蘋  

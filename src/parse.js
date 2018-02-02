@@ -1,6 +1,6 @@
 const { parse: parseMarkdown } = require('markdown-to-ast')
 const HAN_CHARACTERS = require('./hanCharacters')
-const { pinyinIsValid } = require('./pinyin')
+const { validatePinyin } = require('./pinyin')
 
 const getFieldType = (text, { ruby, original, translation }) => {
   if (HAN_CHARACTERS.test(text)) {
@@ -58,8 +58,10 @@ module.exports = function parse(parallelText, splitPassage = 'byLines') {
     passages.forEach(({ original, ruby, name: passageName }) => {
       original.forEach((line, lineNumber) => {
         const rubyLine = ruby[lineNumber]
-        if (!pinyinIsValid(line, rubyLine)) {
+        const warnings = validatePinyin(line, rubyLine)
+        if (warnings.length) {
           console.warn(`Check ruby text for ${collectionName}, ${passageName}: ${line} (${rubyLine})`)
+          warnings.forEach(warning => console.log('  '+ warning))
         }
       })
     })
