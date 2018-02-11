@@ -54,7 +54,7 @@
 7 wàn lài cii ju jì  
 8 wéi yú zhong qìng yin
 
-5 山光悅鳥性  
+5 山光悦鳥性  
 6 潭影空人心  
 7 萬籟此俱寂  
 8 惟餘鐘磬音
