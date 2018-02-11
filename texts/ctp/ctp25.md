@@ -51,7 +51,7 @@
 14 wù yuè xin zì zú
 
 13 澹然離言說  
-14 悟悅心自足
+14 悟悦心自足
 
 13 In tranquility I leave philosophizing behind  
 14 And awaken to joy, my mind complete in itself.
