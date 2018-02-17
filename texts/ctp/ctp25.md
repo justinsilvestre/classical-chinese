@@ -50,7 +50,7 @@
 13 dàn rán lí yán shuo  
 14 wù yuè xin zì zú
 
-13 澹然離言說  
+13 澹然離言説  
 14 悟悦心自足
 
 13 In tranquility I leave philosophizing behind  
