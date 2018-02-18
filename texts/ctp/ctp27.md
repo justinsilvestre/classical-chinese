@@ -41,7 +41,7 @@
 
 1 殿有寒燈草有螢  
 2 千林萬壑寂無聲  
-3 煙凝積水龍蛇蜇  
+3 煙凝積水龍蛇蟄  
 4 露濕空山星漢明
 
 1 A cold lamp burns in the worship-hall, and fireflies in the grass;  
