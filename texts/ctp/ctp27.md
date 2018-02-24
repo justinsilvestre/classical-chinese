@@ -12,10 +12,10 @@
 3 月照何年樹  
 4 花逢幾遍人
 
-1 Outside the window the white crains go to roost;  
-2 It is as if I am neighbor to Mirror Lake.  
-3 How old are the trees that the moon shines on?  
-4 How many times has their blossom greeted visitors?
+1 Outside the window the white cranes go to roost;  
+2 It seems like Mirror Lake and I are neighbors.  
+3 How many years old are the trees that the moon shines on?  
+4 How many times have their flowers greeted visitors?
 
 5 àn suo qing yoou lù  
 6 tái jìng lyù wú chén  
@@ -27,10 +27,10 @@
 7 永願容依止  
 8 僧中老此身
 
-5 There is a way through the green sedge on the bank;  
-6 The mossy paths are green with no trace of dust.  
-7 I've long wished I might be allowed to find refuge here  
-8 And let this body age among the monks.
+5 On the bank where the sedge is verdant there is a path;  
+6 The mossy paths are green and free of dust.  
+7 Ever have I wished they'd let me stay and settle
+8 to let this body age among the monks.
 
 ## 盧綸 (late eighth century) 宿石甕寺
 
@@ -44,9 +44,9 @@
 3 煙凝積水龍蛇蟄  
 4 露濕空山星漢明
 
-1 A cold lamp burns in the worship-hall, and fireflies in the grass;  
-2 A thousand forests and a myriad valleys are still and silent.  
-3 Mist thickens over the rain-pools where dragons and snakes lie hidden;  
+1 In the worship-hall is a cold lamp, in the grass are fireflies.  
+2 A thousand forests and a myriad valleys are still and without sound.  
+3 Mist thickens over the pools of water where dragons and snakes lie hidden;  
 4 Dew moistens the empty hills and the Milky Way is bright.
 
 5 hun aai wù zhong bei shì jiè  
@@ -59,7 +59,7 @@
 7 回瞻相好因垂淚  
 8 苦海波濤何日平
 
-5 In the haze and mists of twilight I am sad for the world;  
-6 In the light of colored clouds at down I see the royal city.  
-7 I look back and gaze [at the temple], admire it, then weep:  
-8 When will the waves in the see of suffering be stilled?
+5 In twilight's misty fog, I lament the world;  
+6 In daybreak's hazy light, I see the royal city.  
+7 I look back to admire it, then weep:  
+8 The waves in the sea of suffering--on what day will they be stilled?

@@ -28,8 +28,8 @@
 08 繕性何由熟
 
 05 Nobody at all draws on the true source [within];  
-06 Empty marvels are what the world pursues.  
-07 I hope to be able to intuit [the message behind] this ancient text  
+06 Illusory traces are what the world pursues.  
+07 From this ancient text, I hope to be able to intuit
 08 To discover how I may repair [the damage done to] my inborn nature.
 
 09 dào rén tíng yuu jìng  
