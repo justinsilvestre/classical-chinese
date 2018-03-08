@@ -7,7 +7,8 @@
     "start": "node src/index.js",
     "modify-pinyin": "node src/modifyPinyin.js",
     "test": "jest src",
-    "get-vocab": "node src/getVocabulary.js"
+    "get-vocab": "node src/getVocabulary.js",
+    "format-lines": "node src/formatLines.js"
   },
   "repository": "https://github.com/justinsilvestre/classical-chinese",
   "author": "Justin Silvestre <justinsilvestre@gmail.com>",
