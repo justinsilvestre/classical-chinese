@@ -14,16 +14,16 @@ const toModifiedPinyin = (standardPinyin) => standardPinyin.replace(/./g, (char)
 )
 
 function validatePinyin(hanzi, ruby) {
-  const givenReadings = removeLineNumbers(ruby.trim()).split(/\s+/)
+  const givenLineReadings = removeLineNumbers(ruby.trim()).split(/\s+/)
   return [...removeLineNumbers(hanzi).trim()].reduce((warnings, character, i) => {
     const expectedReadings = pinyin(character)
-    const givenReading = givenReadings[i]
-    const isValid = expectedReadings.some(reading =>
-      toModifiedPinyin(reading) === givenReading
+    const givenCharacterReadings = givenLineReadings[i].split('/')
+    const isValid = expectedReadings.some(expectedCharacterReading =>
+      givenCharacterReadings.some((characterReading) => characterReading === toModifiedPinyin(expectedCharacterReading))
     )
     return isValid
     ? warnings
-    : warnings.concat(`${character} "${givenReading}" - ${expectedReadings.join(' | ')}`)
+    : warnings.concat(`${character} "${givenLineReadings[i]}" - ${expectedReadings.join(' | ')}`)
   }, [])
 }
 
