@@ -20,7 +20,7 @@
 05 ji niaao liàn jiù lín  
 06 chí yú si gù yuan  
 07 kai huang nán yee jì  
-08 shoou zhuo gui yuán tián
+08 shoou zhuó gui yuán tián
 
 05 羈鳥戀舊林  
 06 池魚思故淵  
