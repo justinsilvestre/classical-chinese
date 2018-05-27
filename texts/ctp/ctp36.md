@@ -5,7 +5,7 @@
 01 xin shù lán huì pa  
 02 zá yòng dù héng caao  
 03 zhong zhao caai qí hua  
-04 rì mu bù yíng bào
+04 rì mù bù yíng bào
 
 01 新樹蘭蕙葩  
 02 雜用杜蘅草  
@@ -46,7 +46,7 @@
 1 shè jiang caai fú róng  
 2 lán zé duo fang caao  
 3 caai zhi yù wèi shuí  
-4 suoo si zài yuaan diào
+4 suoo si zài yuaan dào
 
 1 涉江採芙蓉  
 2 蘭澤多芳草  
@@ -77,7 +77,7 @@
 
 1 tíng zhong yoou qí shù  
 2 lyù yè fa hua zi  
-3 pán tiáo zhé qí róng  
+3 pan tiáo zhé qí róng  
 4 jiang yii wèi suoo si
 
 1 庭中有奇樹  

@@ -78,7 +78,7 @@
 
 1 At West Brook I asked [my way of] a woodcutter,  
 2 Then in the distance I recognized my host's home.  
-3 Ancient trees ha embraced the rocks with their adancing years;  
+3 Ancient trees have embraced the rocks with their advancing years;  
 4 A rapid burn revealed the [bottom] sand by its clarity.
 
 5 qian feng suí yuu àn  
