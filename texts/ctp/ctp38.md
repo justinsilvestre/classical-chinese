@@ -71,6 +71,7 @@ xín rén gèng zài chun shan wài
 盈盈粉淚
 樓高莫近危闌倚
 平蕪盡處是春山
+行人更在春山外
 
 At the prospect-tower the prunus-blossom was almost over;
 At the bridge over the stream the willows were slender;
