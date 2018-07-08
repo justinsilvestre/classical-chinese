@@ -44,7 +44,7 @@
 7 芳心向春盡  
 8 所得是霑衣
 
-5 Heartbroken, I cannot bear to sweet it away;  
+5 Heartbroken, I cannot bear to sweep it away;  
 6 I strain my eyes, still wanting him to return.  
 7 My blossoming heart is gone (towards =) with the spring,  
 8 And all I get is a tear-soaked dress.
@@ -120,7 +120,7 @@
 1 zì yuu wáng sun bié  
 2 pín kan huáng niaao fei  
 3 ying yóu chun caao wù  
-4 zhù chuu bù chéng gui
+4 zhuó chuu bù chéng gui
 
 1 自與王孫別  
 2 頻看黃鳥飛  
