@@ -48,7 +48,7 @@
 3 xin xin cii sheng yì  
 4 zì eer wéi jia jié
 
-1 蘭葉春威甤  
+1 蘭葉春葳蕤  
 2 桂花秋皎潔  
 3 欣欣此生意  
 4 自爾爲佳節
@@ -100,7 +100,7 @@
 07 運命惟所遇  
 08 循環不可尋
 
-05 It would make an ideal gift for an honored guest,
+05 It would make an ideal gift for an honored guest,  
 06 But alas, [the place where it grows] is obstructed by many-layered [mountains] and deep [rivers].  
 07 Fate is limited to what each of us encounters;  
 08 Its cyclicality is beyond discovery.
