@@ -56,7 +56,7 @@
 1 In springtime the orchid leaves are luxuriant;  
 2 In autumn the cassia flowers are purest white.  
 3 So vigorous is this energy for growth  
-4 Than alone and unaided they create the fair seasons.
+4 That alone and unaided they create the fair seasons.
 
 5 shuí zhi lín qi zhee  
 6 wén feng zuò xiang yuè  
@@ -64,12 +64,12 @@
 8 hé qiú meei rén zhé
 
 5 誰知林棲者  
-6 聞風坐相悅  
+6 聞風坐相悦  
 7 草木有本心  
 8 何求美人折
 
 5 Little do they expect that the forest-dwellers (= recluses),  
-6 sensing [their fragrance on] the breeze, will [come and] sit to enjoy them.  
+6 Sensing [their fragrance on] the breeze, will [come and] sit to enjoy them.  
 7 Plants and trees have their own private purposes;  
 8 They have no desire for a beautiful woman to pluck them.
 
@@ -100,8 +100,8 @@
 07 運命惟所遇  
 08 循環不可尋
 
-05 It would make an ideal gift for an honored guest, but alas, [the place where it grows] is obstructed by many-layered [mountains] and  
-06 deep [rivers].  
+05 It would make an ideal gift for an honored guest,
+06 But alas, [the place where it grows] is obstructed by many-layered [mountains] and deep [rivers].  
 07 Fate is limited to what each of us encounters;  
 08 Its cyclicality is beyond discovery.
 

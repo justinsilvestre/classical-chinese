@@ -72,7 +72,7 @@
 01 At the prospect-tower the prunus-blossom was almost over;  
 02 At the bridge over the stream the willows were slender;  
 03 The flower-scented breeze was warm, swinging his departing bridle.  
-04 The sadness of parting became endless the farther he moved away  
+04 The sadness of parting became more endless the farther he moved away  
 05 Into an unending distance like springtime floodwaters.
 
 06 cùn cùn róu cháng  
