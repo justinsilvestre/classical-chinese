@@ -3,17 +3,19 @@ const { argv } = require('yargs')
 const parse = require('./parse')
 const eachFile = require('./eachFile')
 const HAN_CHARACTERS = require('./hanCharacters')
+const { highlightNewCharactersInPassage } = require('./pinyin')
 
 const {
   _: paths,
   out = 'flashcards.csv',
   mhz: minimumHanziLength = 8,
   sp: splitPassage = 'byLines',
+  hnc: highlightNewCharacters = false,
 } = argv
 
 let text = ''
 paths.forEach(path =>
-  eachFile(path, filename => text += readFileSync(filename, 'utf8') + '\n')
+  eachFile(path, filename => (text += readFileSync(filename, 'utf8') + '\n'))
 )
 
 const parsed = parse(text, splitPassage)
@@ -23,7 +25,7 @@ const newLineBuffer = () => ({
   ruby: [],
   translation: [],
 })
-const lengthenLines = (passages) => {
+const lengthenLines = passages => {
   const result = []
 
   passages.forEach((originalPassage, i) => {
@@ -36,9 +38,13 @@ const lengthenLines = (passages) => {
       lineBuffer.ruby.push(ruby[i])
       lineBuffer.translation.push(translation[i])
 
-      const hanInBuffer = lineBuffer.original.join('').match(HAN_CHARACTERS) || []
+      const hanInBuffer =
+        lineBuffer.original.join('').match(HAN_CHARACTERS) || []
 
-      if (i === original.length - 1 || hanInBuffer.length >= minimumHanziLength) {
+      if (
+        i === original.length - 1 ||
+        hanInBuffer.length >= minimumHanziLength
+      ) {
         newLines.original.push(lineBuffer.original.join('\n'))
         newLines.ruby.push(lineBuffer.ruby.join('\n'))
         newLines.translation.push(lineBuffer.translation.join('\n'))
@@ -53,16 +59,41 @@ const lengthenLines = (passages) => {
   return result
 }
 
-const sanitize = (text) => `"${text.replace(/\"/g, '\"\"')}"`
+const sanitizeAndAddLineBreaks = text => {
+  const sanitized = `"${text.replace(/\"/g, '""')}"`
+  return highlightNewCharacters ? sanitized.replace(/\n/g, '<br/>') : sanitized
+}
 
-writeFileSync(out, parsed.reduce((output, collection) => {
-  const { name: collectionName, passages } = collection
-  const addition = lengthenLines(passages).reduce((passagesOutput, passage) => {
-    const { name, original, ruby, translation } = passage
+const charactersToReadings = {}
 
-    return passagesOutput + original.reduce((o, originalLine, i) =>
-      o + `${sanitize(originalLine)},${sanitize(ruby[i])},${sanitize(translation[i])},${name},${collectionName}\n`
-    , '')
+writeFileSync(
+  out,
+  parsed.reduce((output, collection) => {
+    const { name: collectionName, passages } = collection
+    const addition = lengthenLines(passages).reduce(
+      (passagesOutput, passage) => {
+        if (highlightNewCharacters)
+          highlightNewCharactersInPassage(passage, charactersToReadings)
+        const { name, original, ruby, translation } = passage
+
+        return (
+          passagesOutput +
+          original.reduce(
+            (o, originalLine, i) =>
+              o +
+              `${sanitizeAndAddLineBreaks(
+                originalLine
+              )},${sanitizeAndAddLineBreaks(
+                ruby[i]
+              )},${sanitizeAndAddLineBreaks(
+                translation[i]
+              )},${name},${collectionName}\n`,
+            ''
+          )
+        )
+      },
+      ''
+    )
+    return output + addition + '\n'
   }, '')
-  return output + addition + '\n'
-}, ''))
+)

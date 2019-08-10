@@ -1,6 +1,6 @@
 const { parse: parseMarkdown } = require('markdown-to-ast')
 const HAN_CHARACTERS = require('./hanCharacters')
-const { validatePinyin } = require('./pinyin')
+const { validatePinyin, highlightNewCharactersInPassage } = require('./pinyin')
 
 const getFieldType = (text, { ruby, original, translation }) => {
   if (HAN_CHARACTERS.test(text)) {
@@ -12,7 +12,7 @@ const getFieldType = (text, { ruby, original, translation }) => {
   }
 }
 
-const lastIn = (arr) => arr[arr.length - 1]
+const lastIn = arr => arr[arr.length - 1]
 
 const SPLIT_PASSAGE = {
   byParagraphs({ type, raw }, collections) {
@@ -30,10 +30,14 @@ const SPLIT_PASSAGE = {
     raw.split(/\s*\n+\s*/).forEach(line => {
       currentPassage[fieldType].push(line)
     })
-  }
+  },
 }
 
-module.exports = function parse(parallelText, splitPassage = 'byLines') {
+module.exports = function parse(
+  parallelText,
+  splitPassage = 'byLines',
+  highlightNewCharacters
+) {
   const { children } = parseMarkdown(parallelText)
   const parsed = children.reduce((collections, node) => {
     const { type, depth } = node
@@ -55,16 +59,31 @@ module.exports = function parse(parallelText, splitPassage = 'byLines') {
   }, [])
 
   parsed.forEach(({ name: collectionName, passages }) => {
-    passages.forEach(({ original, ruby, name: passageName }) => {
-      original.forEach((line, lineNumber) => {
-        const rubyLine = ruby[lineNumber]
-        const warnings = validatePinyin(line, rubyLine)
-        if (warnings.length) {
-          console.warn(`Check ruby text for ${collectionName}, ${passageName}: ${line} (${rubyLine})`)
-          warnings.forEach(warning => console.log('  '+ warning))
-        }
+    return passages
+      .map(({ original, ruby, ...rest }) => ({
+        original: original.flatMap(paragraphOrLine =>
+          paragraphOrLine.split(/\s*\n\s*/g)
+        ),
+        ruby: ruby.flatMap(paragraphOrLine =>
+          paragraphOrLine.split(/\s*\n\s*/g)
+        ),
+        ...rest,
+      }))
+      .map(passage => {
+        const { original, ruby, name: passageName } = passage
+        original.forEach((line, lineNumber) => {
+          const rubyLine = ruby[lineNumber]
+          const warnings = validatePinyin(line, rubyLine)
+          if (warnings.length) {
+            console.warn(
+              `Check ruby text for ${collectionName}, ${passageName}: ${line} (${rubyLine})`
+            )
+            warnings.forEach(warning => console.log('  ' + warning))
+          }
+        })
+
+        return passage
       })
-    })
   })
   return parsed
 }
