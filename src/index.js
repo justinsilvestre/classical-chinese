@@ -11,6 +11,7 @@ const {
   mhz: minimumHanziLength = 8,
   sp: splitPassage = 'byLines',
   hnc: highlightNewCharacters = false,
+  scc: showCharacterCount = false,
 } = argv
 
 let text = ''
@@ -60,8 +61,12 @@ const lengthenLines = passages => {
 }
 
 const sanitizeAndAddLineBreaks = text => {
+  if (!text || !text.trim()) return ''
+
   const sanitized = `"${text.replace(/\"/g, '""')}"`
-  return highlightNewCharacters ? sanitized.replace(/\n/g, '<br/>') : sanitized
+  return highlightNewCharacters
+    ? sanitized.replace(/\s*\n/g, '<br>\n')
+    : sanitized
 }
 
 const charactersToReadings = {}
@@ -87,7 +92,9 @@ writeFileSync(
                 ruby[i]
               )},${sanitizeAndAddLineBreaks(
                 translation[i]
-              )},${name},${collectionName}\n`,
+              )},${name},${collectionName},${sanitizeAndAddLineBreaks(
+                passage.notes
+              )}\n`,
             ''
           )
         )
@@ -97,3 +104,9 @@ writeFileSync(
     return output + addition + '\n'
   }, '')
 )
+
+if (scc)
+  console.log(
+    Object.keys(charactersToReadings).length,
+    Object.keys(charactersToReadings).join('')
+  )

@@ -1,6 +1,7 @@
 const pinyin = require('mini-pinyin')
 
-const removeLineNumbers = text => text.replace(/\s*[0-9]+\s*/g, ' ')
+const removeLineNumbersAndPunctuation = text =>
+  text.replace(/\s*[0-9]+\s*/g, ' ').replace(/[\.?!,;:，。]/g, '')
 
 const PINYIN_MODIFICATIONS = {
   ['ā']: 'a',
@@ -30,10 +31,10 @@ const toModifiedPinyin = standardPinyin =>
   standardPinyin.replace(/./g, char => PINYIN_MODIFICATIONS[char] || char)
 
 function validatePinyin(original, ruby) {
-  const givenLineReadings = removeLineNumbers(ruby)
+  const givenLineReadings = removeLineNumbersAndPunctuation(ruby)
     .trim()
     .split(/\s+/)
-  return [...removeLineNumbers(original).trim()].reduce(
+  return [...removeLineNumbersAndPunctuation(original).trim()].reduce(
     (warnings, character, i) => {
       const expectedReadings = pinyin(character)
       const givenCharacterReadings = givenLineReadings[i].split('/')
@@ -55,16 +56,19 @@ function validatePinyin(original, ruby) {
   )
 }
 
+const wordBoundaryWithAccents = string =>
+  `([^\\wÀ-ÖØ-öø-ſ]|^)${string}(?![\\wÀ-ÖØ-öø-ſ])`
+
 function highlightNewCharactersInPassage(passage, charactersToReadings) {
   const { ruby: rubyLines, original: hanziLines } = passage
 
   rubyLines.forEach((ruby, lineNumber) => {
     const original = hanziLines[lineNumber]
-    const givenLineReadings = removeLineNumbers(ruby)
+    const givenLineReadings = removeLineNumbersAndPunctuation(ruby)
       .trim()
       .split(/\s+/)
     const characters = [
-      ...removeLineNumbers(original)
+      ...removeLineNumbersAndPunctuation(original)
         .trim()
         .replace(/\s+/g, ''),
     ]
@@ -77,8 +81,7 @@ function highlightNewCharactersInPassage(passage, charactersToReadings) {
       return indexes
     }, [])
 
-    console.log(newIndexes)
-    console.log(charactersToReadings)
+    if (!newIndexes.length) return
 
     newIndexes.forEach(index => {
       const character = characters[index]
@@ -94,16 +97,18 @@ function highlightNewCharactersInPassage(passage, charactersToReadings) {
       'g'
     )
     const newReadings = new RegExp(
-      `(${newIndexes.map(i => givenLineReadings[i]).join('|')})`,
+      wordBoundaryWithAccents(
+        `(${newIndexes.map(i => givenLineReadings[i]).join('|')})`
+      ),
       'g'
     )
     passage.original[lineNumber] = passage.original[lineNumber].replace(
       newCharacters,
-      (match, group) => `<u>${group}</u>`
+      (match, target) => `<u>${target}</u>`
     )
     passage.ruby[lineNumber] = passage.ruby[lineNumber].replace(
       newReadings,
-      (match, group) => `<u>${group}</u>`
+      (match, startPadding, target) => `${startPadding}<u>${target}</u>`
     )
   })
 

@@ -52,6 +52,10 @@ module.exports = function parse(
       })
     } else if (type === 'Paragraph') {
       SPLIT_PASSAGE[splitPassage](node, collections)
+    } else if (type === 'BlockQuote') {
+      lastIn(lastIn(collections).passages).notes = node.raw
+        .replace('\n', '  \n')
+        .replace(/^\>\s+/g, '')
     } else {
       throw new Error(`Invalid format: ${JSON.stringify(node)}`)
     }
