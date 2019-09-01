@@ -39,7 +39,7 @@
 04 花路入溪口
 
 01 This atmosphere of peaceful seclusion continues uninterrupted;  
-02 On this trip I'll go along with whatever I meet by change.  
+02 On this trip I'll go along with whatever I meet by chance.  
 03 The evening breeze wafts my boat onwards  
 04 [Through] a path of [floating] blossom into the mouth of the stream.
 

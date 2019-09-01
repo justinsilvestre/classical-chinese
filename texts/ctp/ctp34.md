@@ -82,7 +82,7 @@
 4 A rapid burn revealed the [bottom] sand by its clarity.
 
 5 qian feng suí yuu àn  
-6 yi jing rù yún xié  
+6 yi jìng rù yún xié  
 7 rì mù fei ya jí  
 8 maan shan qiáo mài hua
 
