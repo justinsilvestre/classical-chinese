@@ -588,7 +588,7 @@ zhou wuu wáng, cheng san wáng.
 周武王，稱三王。
 
 The Xia dynasty had Yu, the Shang dynasty had Tang.  
-The Zhou dynasty had king Wu, 
+The Zhou dynasty had king Wu, these are called the Three Kings.
 
 > [Yu]  stands for the wise Minister, afterwards first Emperor of the Hsia dynasty, popularly known as 大禹 ta yü the Great Yü, who reigned B.C. 2205—2197. He is chiefly famous for having drained the empire of a vast body of water, which some have tried to identify with Noah's flood. (Giles)  
 >   
@@ -709,11 +709,13 @@ hào san guó, qì liaang jìn.
 號三國，迄兩晉。
 
 Shu, Wei, and Wu fought for the Hans' three-legged incense pot.  
-They were called the Three Kingdoms, and were there until the Two Qin dynasties.
+They were called the Three Kingdoms, and were there until the Two Jin dynasties.
 
 > [蜀 shu] is here a name for modern Ssŭch'uan, over which 劉備 Liu Pei, a quondam artisan, ruled as first Emperor. (Giles)  
 >   
 > [魏 wei] stands for portions of modern Shansi and Honan, over which a son of the great 曹操 Ts'ao Ts'ao ruled as first Emperor. (Giles)  
+>   
+> [吳 wu] stands for that part of the empire known as modern Kiangsu, over which 孫權 Sun Ch'üan ruled as first Emperor.   
 >   
 > [鼎 ding represents] a bronze vessel with three legs and two handles, used for burning incense. It is here figuratively employed, just as throne is often used in English. (Giles)  
 >   
@@ -826,7 +828,7 @@ These are called the Five Dynasties, and each had a reason for being.
 
 ## 三字經 63
 
-yán sòng xìng, shòu zhou chán.  
+yán sòng xing, shòu zhou chán.  
 shí ba chuán, nán beei hùn.
 
 炎宋興，受周禪。  
@@ -865,7 +867,7 @@ After ninety years, their state's rule was ended.
 
 ## 三字經 66
 
-tài zuu xìng, guó dà míng.  
+tài zuu xing, guó dà míng.  
 hào hóng wuu, du jin líng.
 
 太祖興，國大明。  
@@ -893,7 +895,7 @@ zhì lii chuaang, shén qì fén.
 權閹肆，寇如林。  
 至李闖，神器焚。
 
-The hold of the people was relaxed, and rebels were [thick] as forests.  
+The eunuchs' power was unrestrained, and rebels were [thick] as forests.  
 Then came Li Chuang, and the Imperial regalia were destroyed.
 
 > [Chuang] is here a name taken by the rebel 李自成 Li Tzŭ-ch'eng, to whose sedition the fall of the Ming dynasty was mostly due. (Giles)  
@@ -1084,7 +1086,7 @@ You little boys had better establish your determination.
 ## 三字經 83
 
 yíng ba suì, néng yoong shi.  
-mì qi suì, néng fù qí.
+bì qi suì, néng fù qí.
 
 瑩八歲，能詠詩。  
 泌七歲，能賦棋。
