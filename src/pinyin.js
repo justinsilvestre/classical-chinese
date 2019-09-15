@@ -44,6 +44,7 @@ function validatePinyin(original, ruby) {
             characterReading === toModifiedPinyin(expectedCharacterReading)
         )
       )
+
       return isValid
         ? warnings
         : warnings.concat(
@@ -61,7 +62,6 @@ const wordBoundaryWithAccents = string =>
 
 function highlightNewCharactersInPassage(passage, charactersToReadings) {
   const { ruby: rubyLines, original: hanziLines } = passage
-
   rubyLines.forEach((ruby, lineNumber) => {
     const original = hanziLines[lineNumber]
     const givenLineReadings = removeLineNumbersAndPunctuation(ruby)

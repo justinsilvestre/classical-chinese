@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
+    "start:sanzijing": "node src/buildCsvSanzijing.js",
     "modify-pinyin": "node src/modifyPinyin.js",
     "test": "jest src",
     "get-vocab": "node src/getVocabulary.js",
@@ -19,6 +20,7 @@
     "fs-walk": "^0.0.1",
     "markdown-to-ast": "^5.0.0",
     "mini-pinyin": "^0.0.2",
+    "papaparse": "^5.0.2",
     "yargs": "^10.0.3"
   },
   "devDependencies": {
