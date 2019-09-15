@@ -62,7 +62,7 @@ const buildCsv = ({
 
     const sanitized = `"${text.replace(/\"/g, '""')}"`
     return highlightNewCharacters
-      ? sanitized.replace(/\s*\n/g, '<br>\n')
+      ? sanitized.replace(/(\<br\>)?\s*\n/g, '<br>\n')
       : sanitized
   }
 

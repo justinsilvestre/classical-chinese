@@ -1,7 +1,10 @@
 const pinyin = require('mini-pinyin')
 
 const removeLineNumbersAndPunctuation = text =>
-  text.replace(/\s*[0-9]+\s*/g, ' ').replace(/[\.?!,;:，。]/g, '')
+  text
+    .replace(/\s*[0-9]+\s*/g, ' ')
+    .replace(/[\.?!,;:，。]/g, '')
+    .replace(/\n?\<br\>\n?/g, '\n')
 
 const PINYIN_MODIFICATIONS = {
   ['ā']: 'a',
@@ -37,6 +40,9 @@ function validatePinyin(original, ruby) {
   return [...removeLineNumbersAndPunctuation(original).trim()].reduce(
     (warnings, character, i) => {
       const expectedReadings = pinyin(character)
+      return warnings
+  if (!givenLineReadings[i]) console.log({ original, ruby, character, i })
+
       const givenCharacterReadings = givenLineReadings[i].split('/')
       const isValid = expectedReadings.some(expectedCharacterReading =>
         givenCharacterReadings.some(

@@ -7,13 +7,12 @@ const HAN_CHARACTERS = require('./hanCharacters')
 const buildCsv = require('./buildCsv')
 
 const paths = [
-  './texts/ctp',
+  './texts/ctp/',
   './texts/sanzijing.md',
-  './texts/daodejing',
+  './texts/daodejing.md',
 ]
 
 const {
-  out = 'sanzijing-flashcards.csv',
   mhz: minimumHanziLength = 8,
   sp: splitPassage = 'byParagraphs',
   hnc: highlightNewCharacters = true,
@@ -53,28 +52,35 @@ const sanzijingCsvTextLines = originalCsvTextLines
 
   if (sanzijingCsvTextLines.length !== 96) throw new Error(sanzijingCsvTextLines.length)
 
-  const sanzijingCsvTextLines = originalCsvTextLines
-    .filter(isSanzijingLine)
-    .map((line) => {
-      const [
-        original,
-        pronunciation,
-        meaning,
-        verseNumber,
-        tags,
-        notes
-      ] = line
-      return [
-        verseNumber,
-        original,
-        pronunciation,
-        meaning,
-        notes,
-        tags,
-      ]
-    })
+    const isDaodejingLine = line => line[4] && line[4].includes('ddj')
+    const daodejingCsvLines = originalCsvTextLines
+      .filter(isDaodejingLine)
+      .map((line, index) => {
+        const [
+          original,
+          pronunciation,
+          meaning,
+          verseNumber,
+          tags,
+          notes
+        ] = line
+        return [
+          `道德經 ${String(index + 1).padStart(2, '0')}`,
+          original,
+          pronunciation,
+          meaning,
+          verseNumber,
+          `[sound:daodejing_wangbi_${index + 1}.mp3]`,
+          tags,
+        ]
+      })
+    
+      if (daodejingCsvLines.length !==  81) throw new Error(daodejingCsvLines.length)
+        
+writeFileSync('sanzijing-flashcards.csv', unparseCsv(sanzijingCsvTextLines))
+writeFileSync('daodejing-flashcards.csv', unparseCsv(daodejingCsvLines))
 
-writeFileSync(out, unparseCsv(sanzijingCsvTextLines))
+
 
 if (showCharacterCount)
   console.log(
