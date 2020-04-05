@@ -935,84 +935,117 @@
   author: 陳子昂
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/4035
-        - 
+        - https://zh.wikisource.org/wiki/%E7%99%BB%E5%B9%BD%E5%B7%9E%E8%87%BA%E6%AD%8C
   text: -|
-
+    前不見古人，後不見來者。
+    念天地之悠悠，獨愴然而涕下。
 - id: P91
   title: 春望
   author: 杜甫
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/10615
-        - 
+        - https://zh.wikisource.org/wiki/%E6%98%A5%E6%9C%9B
   text: -|
-
+    國破山河在，城春草木深。
+    感時花濺淚，恨別鳥驚心。
+    烽火連三月，家書抵萬金。
+    白頭搔更短，渾欲不勝簪。
 - id: P92
   title: 曲江二首
   author: 杜甫
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/10633
-        - 
+        - https://zh.wikisource.org/wiki/%E6%9B%B2%E6%B1%9F%E4%BA%8C%E9%A6%96#%E5%85%B6%E4%BA%8C
   text: -|
-
+    朝回日日典春衣，每向江頭盡醉歸。
+    酒債尋常行處有，人生七十古來稀。
+    穿花蛺蝶深深見，點水蜻蜓款款飛。
+    傳語風光共流轉，暫時相賞莫相違。
 - id: P93
   title: 登高
   author: 杜甫
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/10878
-        - 
+        - https://zh.wikisource.org/wiki/%E7%99%BB%E9%AB%98
   text: -|
-
+    風急天高猿嘯哀，渚清沙白鳥飛回。
+    無邊落木蕭蕭下，不盡長江滾滾來。
+    萬里悲秋常作客，百年多病獨登臺。
+    艱難苦恨繁霜鬢，潦倒新停濁酒杯。
 - id: P94
   title: 倦夜
   author: 杜甫
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/10866
-        - 
+        - https://zh.wikisource.org/wiki/%E5%85%A8%E5%94%90%E8%A9%A9/%E5%8D%B7227
   text: -|
-
+    竹涼侵臥內，野月滿庭隅。重露成涓滴，稀星乍有無。
+    暗飛螢自照，水宿鳥相呼。萬事干戈裏，空悲清夜徂。
 - id: P95
   title: 唐代
   author: 李賀
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/20082
-        - 
+        - https://zh.wikisource.org/wiki/%E7%A7%8B%E4%BE%86
   text: -|
-
+    桐風驚心壯士苦，衰燈絡緯啼寒素。
+    誰看青簡一編書，不遣花蟲粉空蠹。
+    思牽今夜腸應直，雨冷香魂弔書客。
+    秋墳鬼唱鮑家詩，恨血千年土中碧。
 - id: P96
   title: 唐代
   author: 杜牧
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/27516
-        - 
+        - https://zh.wikisource.org/wiki/%E9%81%A3%E6%87%B7(%E6%9D%9C%E7%89%A7)
   text: -|
-
+    落魄江湖載酒行，
+    楚腰纖細掌中輕；
+    十年一覺揚州夢，
+    贏得青樓薄倖名。
 - id: P97
   title: 虞美人
   author: 李煜
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/70229
-        - 
+        - https://zh.wikisource.org/wiki/%E8%99%9E%E7%BE%8E%E4%BA%BA_(%E6%98%A5%E8%8A%B1%E7%A7%8B%E6%9C%88%E4%BD%95%E6%99%82%E4%BA%86)
   text: -|
+    春花秋月何時了，
+    往事知多少。
+    小樓昨夜又東風，
+    故國不堪回首月明中。
 
+    雕欄玉砌應猶在，
+    只是朱顏改。
+    問君能有幾多愁，
+    恰似一江春水向東流。
 - id: P98
   title: 浣溪沙
   author: 晏殊
   source: null
   urls: - http://fanti.dugushici.com/ancient_proses/48181
+        - https://zh.wikisource.org/wiki/%E6%B5%A3%E6%BA%AA%E6%B2%99_(%E6%99%8F%E6%AE%8A)#%E6%B5%A3%E6%BA%AA%E6%B2%99_(%E4%B8%80%E6%9B%B2%E6%96%B0%E8%A9%9E%E9%85%92%E4%B8%80%E6%9D%AF)
   text: -|
-
+    一曲新詞酒一杯，去年天氣舊亭台。夕陽西下幾時回？
+    無可奈何花落去，似曾相識燕歸來。小園香徑獨徘徊。
 - id: P99
   title: 江城子·乙卯正月二十日夜記夢
   author: 蘇軾
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/49068
-        - 
+        - https://zh.wikisource.org/wiki/%E6%B1%9F%E5%9F%8E%E5%AD%90_(%E8%98%87%E8%BB%BE)#%E6%B1%9F%E5%9F%8E%E5%AD%90%C2%B7%E4%B9%99%E5%8D%AF%E6%AD%A3%E6%9C%88%E4%BA%8C%E5%8D%81%E6%97%A5%E5%A4%9C%E8%A8%98%E5%A4%A2
   text: -|
-
+    十年生死兩茫茫，不思量，自難忘。千里孤墳，無處話淒涼。縱使相逢應不識，塵滿面，鬢如霜。
+    夜來幽夢忽還鄉，小軒窗，正梳妝。相顧無言，惟有淚千行。料得年年腸斷處，明月夜，短松岡。
 - id: P100
   title: 釵頭鳳
   author: 陸游
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/55510
-        - 
+        - https://zh.wikisource.org/wiki/%E9%87%B5%E9%A0%AD%E9%B3%B3_(%E9%99%B8%E6%B8%B8)
   text: -|
+    紅酥手，黃縢酒，滿城春色宮牆柳。
+    東風惡，歡情薄，一懷愁緒，幾年離索，錯！錯！錯！
+
+    春如舊，人空瘦，淚痕紅浥鮫綃透。
+    桃花落，閑池閣，山盟雖在，錦書難託，莫！莫！莫！
