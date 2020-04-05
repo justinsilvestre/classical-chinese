@@ -350,85 +350,118 @@
   author: 王之渙
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/12803
-        - 
+        - https://zh.wikisource.org/wiki/%E7%99%BB%E9%B8%9B%E9%9B%80%E6%A8%93_(%E7%8E%8B%E4%B9%8B%E6%B8%99)
   text: -|
+    白日依山盡，黃河入海流。
+    欲窮千里目，更上一層樓。
 - id: P35
   title: 早發白帝城
   author: 李白
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/8135
-        - 
+        - https://zh.wikisource.org/wiki/%E6%97%A9%E7%99%BC%E7%99%BD%E5%B8%9D%E5%9F%8E
   text: -|
+    朝辭白帝彩雲間，千里江陵一日還。
+    兩岸猿聲啼不住，輕舟已過萬重山。
 - id: P36
   title: 題西林壁
   author: 蘇軾
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/68494
-        - 
+        - https://zh.wikisource.org/wiki/%E9%A1%8C%E8%A5%BF%E6%9E%97%E5%A3%81_(%E8%98%87%E8%BB%BE)
   text: -|
+    橫看成嶺側成峰，遠近高低各不同。
+    不識廬山真面目，只緣身在此山中。
 - id: P37
   title: 觀書有感二首·其一
   author: 朱熹
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/68535
-        - 
+        - https://zh.wikisource.org/wiki/%E8%A7%80%E6%9B%B8%E6%9C%89%E6%84%9F#%E5%85%B6%E4%B8%80
   text: -|
+    半畝方塘一鑑開，
+    天光雲影共徘徊。
+    問渠那得清如許，
+    為有源頭活水來。
 - id: P38
-  title: 行行重行行
+  title: 古詩十九首·其一
   author: null
-  source: null
+  source: 古詩十九首
   urls: - https://fanti.dugushici.com/ancient_proses/47569
-        - 
+        - https://zh.wikisource.org/wiki/%E8%A1%8C%E8%A1%8C%E9%87%8D%E8%A1%8C%E8%A1%8C
   text: -|
+    行行重行行，與君生別離。
+    相去萬餘里，各在天一涯。
+    道路阻且長，會面安可知？
+    胡馬依北風，越鳥巢南枝。
+    相去日已遠，衣帶日已緩。
+    浮雲蔽白日，遊子不顧反。
+    思君令人老，歲月忽已晚。
+    棄捐勿復道，努力加餐飯。
 - id: P39
   title: 渭城曲
   author: 王維
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/5652
-        - 
+        - https://zh.wikisource.org/wiki/%E6%B8%AD%E5%9F%8E%E6%9B%B2
   text: -|
+    渭城朝雨浥輕塵，客舍青青柳色新。
+    勸君更盡一杯酒，西出陽關無故人。
 - id: P40
   title: 黃鶴樓送孟浩然之廣陵
   author: 李白
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/7901
-        - 
+        - https://zh.wikisource.org/wiki/%E9%BB%83%E9%B6%B4%E6%A8%93%E9%80%81%E5%AD%9F%E6%B5%A9%E7%84%B6%E4%B9%8B%E5%BB%A3%E9%99%B5
   text: -|
+    故人西辭黃鶴樓，煙花三月下揚州。
+    孤帆遠影碧空盡，唯見長江天際流。
 - id: P41
   title: 贈汪倫
   author: 李白
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/7829
-        - 
+        - https://zh.wikisource.org/wiki/%E8%B4%88%E6%B1%AA%E5%80%AB
   text: -|
+    李白乘舟將欲行，忽聞岸上踏歌聲。
+    桃花潭水深千尺，不及汪倫送我情。
 - id: P42
   title: 遊子吟
   author: 孟郊
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/19068
-        - 
+        - https://zh.wikisource.org/wiki/%E9%81%8A%E5%AD%90%E5%90%9F_(%E5%AD%9F%E9%83%8A)
   text: -|
+    慈母手中線，遊子身上衣。
+    臨行密密縫，意恐遲遲歸。
+    誰言寸草心，報得三春暉。
 - id: P43
   title: 宿建德江
   author: 孟浩然
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/7348
-        - 
+        - https://zh.wikisource.org/wiki/%E5%AE%BF%E5%BB%BA%E5%BE%B7%E6%B1%9F
   text: -|
+    移舟泊煙渚，日暮客愁新。
+    野曠天低樹，江清月近人。
 - id: P44
   title: 江漢
   author: 杜甫
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/11069
-        - 
+        - https://zh.wikisource.org/wiki/%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E6%96%B9%E8%BC%BF%E5%BD%99%E7%B7%A8/%E8%81%B7%E6%96%B9%E5%85%B8/%E7%AC%AC1113%E5%8D%B7
   text: -|
+    江漢思歸客，乾坤一腐儒。片雲天共遠，永夜月同孤。
+    落日心猶壯，秋風病欲蘇。古來存老馬，不必取長途。
 - id: P45
   title: 楓橋夜泊
   author: 張繼
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/12042
-        - 
+        - https://zh.wikisource.org/wiki/%E6%A5%93%E6%A9%8B%E5%A4%9C%E6%B3%8A
   text: -|
+    月落烏啼霜滿天，江楓漁火對愁眠。
+    姑蘇城外寒山寺，夜半鐘聲到客船。
 - id: P46
   title: 商山早行
   author: 溫庭筠
@@ -436,6 +469,7 @@
   urls: - https://fanti.dugushici.com/ancient_proses/31527
         - 
   text: -|
+
 - id: P47
   title: 天淨沙·秋思
   author: 馬致遠
@@ -443,174 +477,266 @@
   urls: - https://fanti.dugushici.com/ancient_proses/69349
         - 
   text: -|
+
 - id: P48
   title: 涼州詞二首·其一
   author: 王之渙
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/70259
-        - 
+        - https://zh.wikisource.org/wiki/%E5%95%86%E5%B1%B1%E6%97%A9%E8%A1%8C
   text: -|
+    晨起动征铎，客行悲故乡。
+    鸡声茅店月，人迹板桥霜。
+    槲叶落山路，枳花照驿墙。
+    因思杜陵梦，凫雁满回塘。
 - id: P49
-  title: 從軍行七首
+  title: 從軍行·其一
   author: 王昌齡
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/6290
-        - 
+        - https://zh.wikisource.org/wiki/%E5%BE%9E%E8%BB%8D%E8%A1%8C_(%E7%83%BD%E7%81%AB%E5%9F%8E%E8%A5%BF%E7%99%BE%E5%B0%BA%E6%A8%93)
   text: -|
+    烽火城西百尺樓，黃昏獨上海風秋。
+    更吹羌笛關山月，無那金閨萬里愁。
 - id: P50
   title: 出塞二首
   author: 王昌齡
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/6291
-        - 
+        - https://zh.wikisource.org/wiki/%E5%87%BA%E5%A1%9E_(%E7%A7%A6%E6%99%82%E6%98%8E%E6%9C%88%E6%BC%A2%E6%99%82%E9%97%9C)
   text: -|
+    秦時明月漢時關，萬里長征人未還。
+    但使龍城飛將在，不教胡馬度陰山。
 - id: P51
   title: 涼州詞二首·其一
   author: 王翰
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/70235
-        - 
+        - https://zh.wikisource.org/wiki/%E6%B6%BC%E5%B7%9E%E8%A9%9E_(%E8%91%A1%E8%90%84%E7%BE%8E%E9%85%92%E5%A4%9C%E5%85%89%E6%9D%AF)
   text: -|
+    葡萄美酒夜光杯，欲飲琵琶馬上催。
+    醉臥沙場君莫笑，古來征戰幾人回。
 - id: P52
   title: 聞官軍收河南河北
   author: 杜甫
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/10844
-        - 
+        - https://zh.wikisource.org/wiki/%E8%81%9E%E5%AE%98%E8%BB%8D%E6%94%B6%E6%B2%B3%E5%8D%97%E6%B2%B3%E5%8C%97
   text: -|
+    劍外忽傳收薊北，
+    初聞涕淚滿衣裳。
+    卻看妻子愁何在？
+    漫卷詩書喜欲狂。
+    白日放歌須縱酒，
+    青春作伴好還鄉。
+    即從巴峽穿巫峽，
+    便下襄陽向洛陽。
 - id: P53
   title: 過零丁洋
   author: 文天祥
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/68540
-        - 
+        - https://zh.wikisource.org/wiki/%E6%96%87%E5%B1%B1%E9%9B%86_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B719
   text: -|
+    辛苦遭逢起一經，干戈落落四周星。山河破碎風抛絮，身世飄揺雨打萍。
+    惶恐灘頭説惶恐，零丁洋裏歎零丁。人生自古誰無死，留取丹心照汗青。
 - id: P54
   title: 回鄉偶書二首·其一
   author: 賀知章
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/70240
-        - 
+        - https://zh.wikisource.org/wiki/%E5%9B%9E%E9%84%89%E5%81%B6%E6%9B%B8_(%E5%B0%91%E5%B0%8F%E9%9B%A2%E5%AE%B6%E8%80%81%E5%A4%A7%E5%9B%9E)
   text: -|
+    少小離家老大回，鄉音難改鬢毛衰，
+    兒童相見不相識，笑問客從何處來。
 - id: P55
   title: 九月九日憶山東兄弟
   author: 王維
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/5650
-        - 
+        - https://zh.wikisource.org/wiki/%E4%B9%9D%E6%9C%88%E4%B9%9D%E6%97%A5%E6%86%B6%E5%B1%B1%E6%9D%B1%E5%85%84%E5%BC%9F
   text: -|
+    獨在異鄉為異客，每逢佳節倍思親。
+    遙知兄弟登高處，遍插茱萸少一人。
 - id: P56
   title: 雜詩三首·其二
   author: 王維
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/70231
-        - 
+        - https://zh.wikisource.org/wiki/%E9%9B%9C%E8%A9%A9_(%E5%90%9B%E8%87%AA%E6%95%85%E9%84%89%E4%BE%86)
   text: -|
+    君自故鄉來，應知故鄉事。
+    來日綺窗前，寒梅着花未。
 - id: P57
   title: 靜夜思
   author: 李白
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/7633
-        - 
+        - https://zh.wikisource.org/wiki/%E9%9D%9C%E5%A4%9C%E6%80%9D
   text: -|
+    牀前明月光，疑是地上霜。
+    舉頭望明月，低頭思故鄉。
 - id: P58
   title: 渡桑乾
   author: 劉皁
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/24183
-        - 
+        - https://zh.wikisource.org/wiki/%E6%97%85%E6%AC%A1%E6%9C%94%E6%96%B9
   text: -|
+    客舍并州數十霜，歸心日夜憶咸陽。
+    無端又渡桑亁水，却望并州似故鄉。
 - id: P59
   title: 夜雨寄北
   author: 李商隱
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/28304
-        - 
+        - https://zh.wikisource.org/wiki/%E5%A4%9C%E9%9B%A8%E5%AF%84%E5%8C%97
   text: -|
+    君問歸期未有期
+    巴山夜雨漲秋池
+    何當共剪西窗燭
+    卻話巴山夜雨時
 - id: P60
   title: 青青河畔草
   author: null
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/47570
-        - 
+        - https://zh.wikisource.org/wiki/%E9%9D%92%E9%9D%92%E6%B2%B3%E7%95%94%E8%8D%89_(%E5%8F%A4%E8%A9%A9)
   text: -|
+    青青河畔草，鬱鬱園中柳。
+    盈盈樓上女，皎皎當窗牖。
+    娥娥紅粉妝，纖纖出素手。
+    昔爲娼家女，今爲蕩子婦。
+    蕩子行不歸，空牀難獨守。
 - id: P61
   title: 春怨
   author: 金昌緒
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/41520
-        - 
+        - https://zh.wikisource.org/wiki/%E6%98%A5%E6%80%A8_(%E9%87%91%E6%98%8C%E7%B7%92)
   text: -|
+    打起黃鶯兒，莫教枝上啼。
+    啼時驚妾夢，不得到遼西。
 - id: P62
-  title: 無題·颯颯東風細雨來
+  title: 無題
   author: 李商隱
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/70247
-        - 
+        - https://zh.wikisource.org/wiki/%E7%84%A1%E9%A1%8C_(%E9%A2%AF%E9%A2%AF%E6%9D%B1%E9%A2%A8%E7%B4%B0%E9%9B%A8%E4%BE%86)
   text: -|
+    颯颯東風細雨來，芙蓉塘外有輕雷。
+    金蟾齧鎖燒香入，玉虎牽絲汲井回。
+    賈氏窺簾韓掾少，宓妃留枕魏王才。
+    春心莫共花爭發，一寸相思一寸灰。
 - id: P63
   title: 更漏子
   author: 溫庭筠
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/71340
-        - 
+        - https://zh.wikisource.org/wiki/%E6%9B%B4%E6%BC%8F%E5%AD%90_(%E6%BA%AB%E5%BA%AD%E7%AD%A0)
   text: -|
+    玉鑪香，
+    紅蠟淚，
+    偏照畫堂秋思。
+    眉翠薄，
+    鬢雲殘，
+    夜長衾枕寒。
+
+    梧桐樹，
+    三更雨，
+    不道離情正苦。
+    一葉葉，
+    一聲聲，
+    空階滴到明。
 - id: P64
   title: 菩薩蠻
   author: 溫庭筠
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/70447
-        - 
+        - https://zh.wikisource.org/wiki/%E8%8F%A9%E8%96%A9%E8%A0%BB_(%E5%B0%8F%E5%B1%B1%E9%87%8D%E7%96%8A%E9%87%91%E6%98%8E%E6%BB%85)
   text: -|
+    小山重疊金明滅，
+    鬢雲欲度香腮雪。
+    懶起畫蛾眉，
+    弄妝梳洗遲。
+
+    照花前後鏡，
+    花面交相映。
+    新帖繡羅襦，
+    雙雙金鷓鴣。
 - id: P65
   title: 謁金門
   author: 韋莊
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/46754
-        - 
+        - https://zh.wikisource.org/wiki/%E8%AC%81%E9%87%91%E9%96%80_(%E7%A9%BA%E7%9B%B8%E6%86%B6)
   text: -|
+    空相憶，
+    無計得傳消息。
+    天上嫦娥人不識，
+    寄書何處覓？
+
+    新睡覺來無力，
+    不忍把伊書跡。
+    滿院落花春寂寂，
+    斷腸芳草碧。
 - id: P66
   title: 相見歡·無言獨上西樓
   author: 李煜
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/70465
-        - 
+        - https://zh.wikisource.org/wiki/%E7%9B%B8%E8%A6%8B%E6%AD%A1_(%E6%9D%8E%E7%85%9C)
   text: -|
+    無言獨上西樓，月如鉤。寂寞梧桐深院鎖清秋。
+
+    剪不斷，理還亂，是離愁。別是一般滋味在心頭。 
 - id: P67
   title: 蝶戀花
   author: 歐陽修
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/70473
-        - 
+        - https://zh.wikisource.org/wiki/%E8%9D%B6%E6%88%80%E8%8A%B1_(%E6%AD%90%E9%99%BD%E4%BF%AE)
   text: -|
+    庭院深深深幾許，楊柳堆煙、簾幕無重數；玉勒雕鞍遊冶處，樓高不見章臺路。
+    雨橫風狂三月暮，門掩黃昏、無計留春住；淚眼問花花不語，亂紅飛過鞦韆去。
 - id: P68
   title: 武陵春
   author: 李清照
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/52350
-        - 
+        - https://zh.wikisource.org/wiki/%E6%AD%A6%E9%99%B5%E6%98%A5_(%E6%9D%8E%E6%B8%85%E7%85%A7)
   text: -|
+    風住塵香花已盡，日晚倦梳頭。物是人非事事休，欲語淚先流。
+    聞說雙溪春尚好，也擬泛輕舟。只恐雙溪舴艋舟，載不動、許多愁。
 - id: P69
   title: 玉階怨
   author: 謝朓
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/47695
-        - 
+        - https://zh.wikisource.org/wiki/%E7%8E%89%E9%9A%8E%E6%80%A8_(%E8%AC%9D%E6%9C%93)
   text: -|
+    夕殿下珠簾
+    流螢飛復息
+    長夜縫羅衣
+    思君何此極
 - id: P70
   title: 玉階怨
   author: 李白
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/7603
-        - 
+        - https://zh.wikisource.org/wiki/%E7%8E%89%E9%9A%8E%E6%80%A8_(%E6%9D%8E%E7%99%BD)
   text: -|
+    玉階生白露，夜久侵羅襪。
+    却下水晶簾，玲瓏望秋月。
 - id: P71
   title: 長信秋詞五首
   author: 王昌齡
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/6297
-        - 
+        - https://zh.wikisource.org/wiki/%E9%95%B7%E4%BF%A1%E7%A7%8B%E8%A9%9E_(%E5%A5%89%E5%B8%9A%E5%B9%B3%E6%98%8E%E9%87%91%E6%AE%BF%E9%96%8B)
   text: -|
+    奉帚平明金殿開，且將團扇暫裴回。
+    玉顏不及寒鴉色，猶帶朝陽日影來。
 - id: P72
   title: 秋夕
   author: 杜牧
@@ -618,102 +744,163 @@
   urls: - https://fanti.dugushici.com/ancient_proses/27542
         - 
   text: -|
+    紅燭秋光冷畫屏，
+    輕羅小扇撲流螢。
+    天階夜色涼如水，
+    坐看牽牛織女星。
 - id: P73
   title: 嫦娥
   author: 李商隱
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/28770
-        - 
+        - https://zh.wikisource.org/wiki/%E5%B8%B8%E5%A8%A5
   text: -|
+    雲母屏風燭影深
+    長河漸落曉星沉
+    嫦娥應悔偷靈藥
+    碧海青天夜夜心
 - id: P74
   title: 詠池上梨花詩
   author: 王融
   source: null
-  urls: - https://zh.wikisource.org/zh-hant/%E5%BE%A1%E5%AE%9A%E4%BD%A9%E6%96%87%E9%BD%8B%E8%A9%A0%E7%89%A9%E8%A9%A9%E9%81%B8_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B7300 http://enterprise.supadu.com/images/ckfinder/652/extras/How%20to%20Read%20Chinese%20Poetry%20pdfs%20and%20mp3s/pdfs/c10.2.pdf
-        - 
+  urls: - https://zh.wikisource.org/wiki/%E5%BE%A1%E5%AE%9A%E4%BD%A9%E6%96%87%E9%BD%8B%E8%A9%A0%E7%89%A9%E8%A9%A9%E9%81%B8_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B7300
   text: -|
+    翻階沒細草
+    集水間疎萍
+    芳春照流雪
+    深夕映䌓星
 - id: P75
   title: 錦瑟
   author: 李商隱
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/28266
-        - 
+        - https://zh.wikisource.org/wiki/%E9%8C%A6%E7%91%9F
   text: -|
+    錦瑟無端五十弦，一弦一柱思華年。
+    莊生曉夢迷蝴蝶，望帝春心託杜鵑。
+    滄海月明珠有淚，藍田日暖玉生煙。
+    此情可待成追憶？只是當時已惘然。
 - id: P76
   title: 山園小梅·其一
   author: 林逋
   source: null
   urls: - http://fanti.dugushici.com/ancient_proses/68455
+        - https://zh.wikisource.org/wiki/%E5%B1%B1%E5%9C%92%E5%B0%8F%E6%A2%85_(%E6%9E%97%E9%80%8B)
   text: -|
+    眾芳搖落獨暄妍，佔盡風情向小園。
+  　疏影橫斜水清淺，暗香浮動月黃昏。
+  　霜禽欲下先偷眼，粉蝶如知合斷魂。
+  　幸有微吟可相狎，不須檀板共金尊。
 - id: P77
   title: 梅花
   author: 王安石
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/70318
-        - 
+        - https://zh.wikisource.org/wiki/%E6%A2%85%E8%8A%B1_(%E7%8E%8B%E5%AE%89%E7%9F%B3)
   text: -|
+    牆角數枝梅，
+    凌寒獨自開。
+    遙知不是雪，
+    為有暗香來。
 - id: P78
   title: 海棠
   author: 蘇軾
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/70331
-        - 
+        - https://zh.wikisource.org/wiki/%E6%B5%B7%E6%A3%A0_(%E8%98%87%E8%BB%BE)
   text: -|
+    東風嫋嫋泛崇光 香霧空濛月轉廊
+    只恐夜深花睡去 故燒高燭照紅粧
 - id: P79
   title: 梅花絕句·其一
   author: 陸游
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/68525
-        - 
+        - https://zh.wikisource.org/wiki/%E5%BE%A1%E5%AE%9A%E4%BD%A9%E6%96%87%E9%BD%8B%E8%A9%A0%E7%89%A9%E8%A9%A9%E9%81%B8_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B7297
   text: -|
+    聞道梅花坼曉風，雪堆遍滿四山中。
+    何方可化身千億，一樹梅花一放翁。
 - id: P80
   title: 詠懷古蹟五首·其三
   author: 杜甫
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/70250
-        - 
+        - https://zh.wikisource.org/wiki/%E8%A9%A0%E6%87%B7%E5%8F%A4%E8%B7%A1%E4%BA%94%E9%A6%96%E4%B9%8B%E4%B8%89
   text: -|
+    羣山萬壑赴荆門，生長明妃尚有村。
+    一去紫臺連朔漠，獨留青塚向黃昏。
+    畫圖省識春風面，環佩空歸月夜魂。
+    千載琵琶作胡語，分明怨恨曲中論。
 - id: P81
   title: 八陣圖
   author: 杜甫
   source: null
   urls: - http://fanti.dugushici.com/ancient_proses/11025
+        - https://zh.wikisource.org/wiki/%E5%85%AB%E9%99%A3%E5%9C%96
   text: -|
+    功蓋三分國，名成八陣圖。
+    江流石不轉，遺恨失吞吳。
 - id: P82
   title: 隋宮
   author: 李商隱
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/28356
-        - 
+        - https://zh.wikisource.org/wiki/%E9%9A%8B%E5%AE%AE_(%E6%9D%8E%E5%95%86%E9%9A%B1)
   text: -|
+    紫泉宮殿鎖煙霞，欲取蕪城作帝家。
+    玉璽不緣歸日角，錦帆應是到天涯。
+    於今腐草無螢火，終古垂楊有暮鴉。
+    地下若逢陳後主，豈宜重問後庭花。
 - id: P83
   title: 念奴嬌·赤壁懷古
   author: 蘇軾
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/48982
-        - 
+        - https://zh.wikisource.org/wiki/%E5%BF%B5%E5%A5%B4%E5%AC%8C_(%E8%98%87%E8%BB%BE)
   text: -|
+    大江東去，浪淘盡、千古風流人物。
+    故壘西邊人道是，三國周郎赤壁。
+    亂石穿空，驚濤拍岸，捲起千堆雪。
+    江山如畫，一時多少豪傑。
+
+    遙想公瑾當年，小喬初嫁，了雄姿英發。
+    羽扇綸巾談笑處，檣櫓灰飛煙滅。
+    故國神遊，多情應笑，我早生華髮。
+    人間如夢，一尊還酹江月。
 - id: P84
-  title: 南鄉子·登京口北固亭有懷
+  title: 南鄉子
   author: 辛棄疾
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/57517
-        - 
+        - https://zh.wikisource.org/wiki/%E5%8D%97%E9%84%89%E5%AD%90_(%E8%BE%9B%E6%A3%84%E7%96%BE)
   text: -|
+    何處望神州？滿眼風光北固樓。
+    千古興亡多少事，悠悠，不盡長江滾滾流。
+
+    年少萬兜鍪，坐斷東南戰未休。
+    天下英雄誰敵手？曹劉。生子當如孫仲謀。
 - id: P85
-  title: 秋興八首·其一
+  title: 秋興八首·其八
   author: 杜甫
   source: null
-  urls: - https://fanti.dugushici.com/ancient_proses/71335
-        - 
+  urls: - https://fanti.dugushici.com/ancient_proses/11044
+        - https://zh.wikisource.org/wiki/%E7%A7%8B%E8%88%88%E5%85%AB%E9%A6%96%E4%B9%8B%E4%B8%80
   text: -|
+    昆吾御宿自逶迤，紫閣峰陰入渼陂。
+    香稻啄餘鸚鵡粒，碧梧棲老鳳凰枝。
+    佳人拾翠春相問，仙侶同舟晚更移。
+    彩筆昔曾干氣象，白頭吟望苦低垂。
 - id: P86
   title: 烏衣巷
   author: 劉禹錫
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/18745
-        - 
+        - https://zh.wikisource.org/wiki/%E7%83%8F%E8%A1%A3%E5%B7%B7
   text: -|
+    朱雀橋邊野草花，
+    烏衣巷口夕陽斜。
+    舊時王謝堂前燕，
+    飛入尋常百姓家。
 - id: P87
   title: 赤壁
   author: 杜牧
@@ -721,19 +908,28 @@
   urls: - https://fanti.dugushici.com/ancient_proses/27406
         - 
   text: -|
+
 - id: P88
   title: 焚書坑
   author: 章碣
   source: null
   urls: - http://fanti.dugushici.com/ancient_proses/35894
+        - https://zh.wikisource.org/wiki/%E7%84%9A%E6%9B%B8%E5%9D%91_(%E7%AB%A0%E7%A2%A3)
   text: -|
+    竹帛煙銷帝業虛，
+    關河空鎖祖龍居。
+    坑灰未冷山東亂，
+    劉項原來不讀書。
 - id: P89
   title: 山坡羊·潼關懷古
   author: 張養浩
   source: null
   urls: - https://fanti.dugushici.com/ancient_proses/70591
-        - 
+        - https://zh.wikisource.org/wiki/%E5%B1%B1%E5%9D%A1%E7%BE%8A_(%E5%BC%B5%E9%A4%8A%E6%B5%A9)
   text: -|
+    峰巒如聚，波濤如怒，山河表裏潼關路。
+    望西都，意踟躕，傷心秦漢經行處，宮闕萬間都做了土。
+    興，百姓苦；亡，百姓苦。
 - id: P90
   title: 登幽州臺歌
   author: 陳子昂
@@ -741,6 +937,7 @@
   urls: - https://fanti.dugushici.com/ancient_proses/4035
         - 
   text: -|
+
 - id: P91
   title: 春望
   author: 杜甫
@@ -748,6 +945,7 @@
   urls: - https://fanti.dugushici.com/ancient_proses/10615
         - 
   text: -|
+
 - id: P92
   title: 曲江二首
   author: 杜甫
@@ -755,6 +953,7 @@
   urls: - https://fanti.dugushici.com/ancient_proses/10633
         - 
   text: -|
+
 - id: P93
   title: 登高
   author: 杜甫
@@ -762,6 +961,7 @@
   urls: - https://fanti.dugushici.com/ancient_proses/10878
         - 
   text: -|
+
 - id: P94
   title: 倦夜
   author: 杜甫
@@ -769,6 +969,7 @@
   urls: - https://fanti.dugushici.com/ancient_proses/10866
         - 
   text: -|
+
 - id: P95
   title: 唐代
   author: 李賀
@@ -776,6 +977,7 @@
   urls: - https://fanti.dugushici.com/ancient_proses/20082
         - 
   text: -|
+
 - id: P96
   title: 唐代
   author: 杜牧
@@ -783,6 +985,7 @@
   urls: - https://fanti.dugushici.com/ancient_proses/27516
         - 
   text: -|
+
 - id: P97
   title: 虞美人
   author: 李煜
@@ -790,12 +993,14 @@
   urls: - https://fanti.dugushici.com/ancient_proses/70229
         - 
   text: -|
+
 - id: P98
   title: 浣溪沙
   author: 晏殊
   source: null
   urls: - http://fanti.dugushici.com/ancient_proses/48181
   text: -|
+
 - id: P99
   title: 江城子·乙卯正月二十日夜記夢
   author: 蘇軾
@@ -803,6 +1008,7 @@
   urls: - https://fanti.dugushici.com/ancient_proses/49068
         - 
   text: -|
+
 - id: P100
   title: 釵頭鳳
   author: 陸游
