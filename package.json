@@ -21,6 +21,7 @@
     "markdown-to-ast": "^5.0.0",
     "mini-pinyin": "^0.0.2",
     "papaparse": "^5.0.2",
+    "yaml": "^1.8.3",
     "yargs": "^10.0.3"
   },
   "devDependencies": {
