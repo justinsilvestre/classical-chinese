@@ -1,0 +1,253 @@
+- text:
+  - zh: |-
+    今日此相送
+    明年此相待
+    天上客星回，知君渡東海。
+-  title:
+    zh: 村莊即事
+    en: Present matters at the village
+  urls: - http://www5a.biglobe.ne.jp/~shici/shi4_08/pbt_shi225.htm
+  text:
+  - gloss: |-
+      green [is] all_over mountain [and] field, [and] white fill[s the] river.
+      [in the] child-rule (cuckoo)['s] voice['s] midst, [the] rain [is] like smoke.
+      [in] hometown [and] village [in the] fourth month, relaxed people [are] few.
+      just_a_moment_ago [one got] done [with the] silkworm[s and] mulberry, [but] still [one will] stick_in-[the]-rice_field[s] (plant rice).
+    cleangloss: |-
+      green all_over mountain field, white fill river.
+      child-rule (cuckoo) voice midst, rain like smoke.
+      hometown village fourth month, relaxed people few.
+      just_a_moment_ago done silkworm mulberry, still stick_in-[the]-rice_field[s] (plant rice).
+    en: |-
+      Green covers mountain and field; white fills the rivers.
+      Among the calls of the cuckoo, the rain is like mist.
+      During April in the countryside villages, few are at rest.
+      Though we only just finished raising silkworms and planting mulberry, we are still to plant the rice.
+    zh: |-
+      綠遍山原白滿川
+      子規聲裏雨如煙
+      鄉村四月閒人少
+      纔了蠶桑又插田
+    jp: |-
+      緑遍山原白満川
+      子規声裏雨如煙
+      郷村四月間人少
+      才了蚕桑又挿田
+  notes: |-
+      四月 in the lunar calendar places this poem at the end of spring.
+      the basic meaning of 煙 is "smoke", but it's often used like "mist" or "haze". if you imagine the kind of sky that would produce rain so diffuse it appears like a mist, you can see why the rivers would be filled with white--they're reflecting a sky overcast with white clouds.
+      the object of the set phrase 插田 is omitted, but context makes it clear we're dealing with a farming village here, and there's one thing they could be sticking into the rice fields--rice seedlings.
+- urls: - https://kanbun.info/syubu/toushisen274.html
+  text:
+  - gloss: |-
+      [in the]-empty-mountain[s one] do[es]_not-see [any] person.
+      but [one] hear[s] people['s]-talking-echo.
+      [the] returning sunlight enter[s the] deep forest,
+      [and] again shines [on the] blue moss['s] top.
+  - switched: |-
+      in the 空山 one does不 見 any 人
+      但 one 聞s the 響 of 人 語ing
+      A 返ing 景 入s the 深林
+      復 to 照 on 上 of the 青苔
+  - kaeriten: |-
+      空山不見人
+      但聞人[2]語響[1]
+      返景入深林
+      復照青[2]苔上[1]
+  - zh: |-
+      空山不見人
+      但聞人語響
+      返景入深林
+      復照青苔上
+    jp: |-
+      空山不見人
+      但聞人語響
+      返景入深林
+      復照青苔上
+- text:
+  - gloss: |-
+      [for a]-thousand-li (across the land), warbler[s] call and green reflects [onto] red.
+      [in] the water's (waterside) village and mountain enclosure (town), [the] liquor flag wind.
+      [in the] south-dynasty (Southern Dynasties)['] four-hundred-eight-ten (four hundred eighty) temples,
+      many-few (how many) tower-platform (balconies) [in] smoke (misty) rain middle.
+    zh: |-
+      千里鶯啼緑映紅
+      水村山郭酒旗風
+      南朝四百八十寺
+      多少樓臺煙雨中
+    eng: |-
+      Across the land, the warblers call and green reflects onto red.
+      In waterside villages and mountain town, wind in the flags of liquor-shops.
+      In the four hundred eighty temples of the Southern Dynasties,
+      How many balconies in the misty rain!
+- title:
+  zh: 贈花卿
+  en: For Lord Hua
+  text:
+  - urls:
+    - http://fanti.dugushici.com/ancient_proses/10790
+  - gloss: |-
+      [in] brocade-city, string-[and]-pipe (music) 2[throughout the]-day[s] 1[is]-mixed_up-mixed_up (unceasing).
+      half-[of it] go[es]_into [the]-river-wind, half go[es]_into [the] clouds.
+      this song 2only 1must [in] heaven above exist.
+      [in] human-midst could get how_many time[s to] hear [it]?
+    zh: |-
+      錦城絲管日紛紛
+      半入江風半入雲
+      此曲只應天上有
+      人間能得幾回聞
+    en: |-
+      In the Brocade City, the days are awash in the sound of string and pipe, playing on and on.
+      Half goes into the maples on the river, half goes into the clouds.
+      All this song must only be;
+      How many times 
+- text:
+  - zh: |-
+      松下問童子
+      言師採藥去
+      只在此山中
+      雲深不知處
+    gloss: |-
+      2[the]-pines-1below [I]-ask: [the]-boy-child (boy). 
+      [he]-say[-id], "[my] teacher 2[to]-pick:medicine 1go[--went]_away.
+      only, [he] is 2[of]-these-mountain[s]-1[in the]-middle.
+      [the] cloud[s] [are]-deep, [and] [I]-do_not-know: [the] place (where)."
+    en: |-
+      Below the pines, I asked the boy.
+      He said, "My teacher went to pick [herbs] for medicine."
+- text:
+  - zh: |-
+      床前明月光
+      疑是地上霜
+      舉頭望明月
+      低頭思故鄉
+    en: |-
+      [my]-bed^2-before^1, bright-moon-light.
+      [I] suspect[ed]:{it [was] 2{^[the]-earth-^upon}-1frost}.
+      [I]-raise: [my]-head [and] gaze-[at the]: bright-moon.
+      [I]-lower: [my]-head [and] remember [my]-2erstwhile-home.
+- text:
+  - zh: |-
+      有梅無雪不精神
+      有雪無詩俗了人
+      日暮詩成天又雪
+      與梅並作十分春
+    gloss: |-
+      there_is (were there) [the] plum [but] no snow, it [would] not [refine the] spirit.
+      there_is (were there) snow [but] no poem[s], it [would] [make]-vulgar-[completely] (vulgarize): people.
+      [at] sun-set (sunset) [my] poem [was] complete, [in the]-sky, more snow.
+      2with-[the]-plum-1line[d]_up-(along), [it] make [for a] ten-part (full-on) spring.
+    en: |-
+      Were there the plum without snow, it would not refine the spirit.
+      Were there snow without poetry, it would vulgarize us.
+      At sunset I finished my poem, and in the sky, more snow,
+      Along with the plum, makes for a full-on spring.
+- text:
+  - zh: |-
+      春眠不覺曉
+      處處聞啼鳥
+      夜來風雨聲
+      花落知多少
+    gloss: |-
+      [in a] spring-slumber, [I] do_not take_notice [of the] dawn.
+      place-place (everywhere) [I] hear chirp[ing] birds.
+      night come[s], and 2[of]-wind-[and]-rain 1[the]-sound.
+      flower[s] fall; [do you] know many-few (how many)?
+- text:
+  - zh: |-
+      少小離家老大回
+      鄉音無改鬢毛衰
+      兒童相見不相識
+      笑問客從何處來
+    gloss: |-
+      youth small leave of home, old age great return
+      [as for] hometown-noise (the local accent), nothing [has]-change[d], [though my] sidelocks' hair [has] wane[d].
+      [my] child-[and]-boy (children) 2me 1see [but] do_not 2me recognize.
+      [they] smile [and] ask by_way_of-what-place (from where) [I] came.
+- text:
+  - zh: |-
+      道由白雲盡
+      春與青溪長
+      時有落花至
+      遠隨流水香
+      閒門向山路
+      深柳讀書堂
+      幽映每白日
+      清輝照衣裳
+    gloss: |-
+      [the] road 2because_of [the] white cloud[s] 1come[s]_to_an_end.
+      [but] spring 2in the blue mountain_creek 1[is]-long (stretches on).
+      [at] time[s], some fall[en] flower[s] arrive,
+      [and] 3far following (along) [the] flowing water 1give_off_[their]_fragrance
+      [my] tranquil gate face[s the] mountain road
+      deep [in the] willow[s], in [the] read[ing]-book (reading) hall,
+      A secluded (soft) gleam  [on] every white day,
+      pure radiance illuminate[s] [my] clothes. 
+    en: |-
+      The road runs comes to an end because of the white clouds,
+      But spring stretches on in the blue mountain creek.
+      At times, some fallen flowers arrive,
+      And give off their fragrance far along the flowing water.
+      Deep in the willows, in the reading hall,
+      A soft gleam on every white day,
+      Pure radiance illuminates my clothes.
+- text:
+  - zh: |-
+    不知香積寺
+    數里入雲峰
+    古木無人徑
+    深山何處鐘
+    泉聲咽危石
+    日色冷青松
+    薄暮空潭曲
+    安禪制毒龍
+
+
+      
+# 長安道，人無衣，馬無草，何不歸來山中老
+# 黃鳥啼多春日高，紅芳開盡井邊桃。美人手暖裁衣易，片片輕雲落剪刀。
+# 水有青蓮沙有金，老僧於此獨觀心。愁人欲寄中峰宿，只恐白猿啼夜深。
+
+# 北斗七星高
+# https://kanbun.info/syubu/toushisen299.html
+
+# 道由白雲盡
+# https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1087682570
+#     劉シン虚の「闕題（題を闕く）」詩ですね。（「闕題」とは「無題（特に題を設けない）」ということです。）
+#     この詩は『唐詩三百首』に収められていますので、平凡社の東洋文庫『唐詩三百首』（目加田誠・訳注）を参考にしながら回答しましょう。
+
+# 道由白雲盡
+# https://fanti.dugushici.com/ancient_proses/12874
+
+# 少小離家老大回
+# https://fanti.dugushici.com/mingju/9954
+# https://www.epochtimes.jp/jp/2012/11/html/d88886.html
+# https://kanshi.roudokus.com/Gachisyo2.html
+
+# 有梅無雪不精神
+# http://www.shigin.com/hiroaki/kansi_syuu/kansi_syuu-02/setubai.htm
+# http://www.shinkanren.sakura.ne.jp/html/kanshikansyohougaku1502.html
+# https://fanti.dugushici.com/mingju/12659
+# https://kambun.jp/tsukigase/10juritsu-kai.htm
+
+# 移舟泊烟渚
+# https://www.aozora.gr.jp/cards/000250/files/43688_33024.html
+
+# 錦城絲管日紛紛
+# https://zhuanlan.zhihu.com/p/42633783
+
+# 松下問童子
+# https://fanti.dugushici.com/mingju/13064
+
+# 錦城絲管日紛紛
+# https://kanbun.info/syubu/toushisen367.html
+# http://www5a.biglobe.ne.jp/~shici/shi4_08/rs432.htm
+
+# 千里鶯啼綠映紅
+# http://www5a.biglobe.ne.jp/~shici/r16.htm
+
+# 趙氏連城璧
+# https://www.hop-web.net/column/%E5%A4%9C%E3%81%AB%E8%B6%99%E7%B8%A6%E3%82%92%E9%80%81%E3%82%8B-2/
+
+# 林暗草驚風
+# http://www5a.biglobe.ne.jp/~shici/shi4_08/rs499.htm
