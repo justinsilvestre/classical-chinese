@@ -1,28 +1,130 @@
+# parentheses:
+#   after single words, the translation inside is not an ideal standalone keyword but is more idiomatic
+#   after phrases-connected-with-hyphens, it's a set phrase like a proper noun, or corrects an unidiomatic calque
+- label:
+  text:
+  - zh: |-
+      長安道，人無衣，馬無草，何不歸來山中老
+    gloss: |-
+      [on the] 2[to] long-peace (Chang'an) 1road,
+      [the] people have_no clothing,
+      [and the] horse[s] have_no grass.
+      [for] what (why) don't [you] return_home-come (come back home) 2[in the]-mountains 1[to] grow_old?
+    gloss_v2: |-
+      { [on] :< [the] {[to] :<{long peace} (Chang'an) road>} > }
+      {[the] people} {have_no :clothing}
+      [and] {[the] horse[s]} {have_no :grass}.
+      {for :what} (why) you { [do] not {{ return[ing]_home (back home) come } {[to] grow_old <[in:] [the] mountains>}} }?
+    en: |-
+      On the road to Chang'an,
+      The people have no clothing,
+      And the horses have no grass.
+      Why don't you come back home to grow old in the mountains?
+- label: 王維 雜詩 唐詩三百首
+  urls: - https://kanbun.info/syubu/zasshi.html
+        - https://blog.goo.ne.jp/tiandaoxy/e/0e734c8c42f353c258b4d1458e30d30f
+        - http://www5a.biglobe.ne.jp/~shici/rs10.htm
+  text:
+  - zh: |-
+    君自故鄉來
+    應知故鄉事
+    來日綺窗前
+    寒梅著花未
+  - gloss: |-
+      lord 2from [my] (old)-countryside (hometown) [is]-1come[-ing]
+      [so] [he] must know 2[in]-(old)-countryside (back home) 1matter[s] (how things are going).
+      2[you were to]-come_this_way (you left) 1[on the]-day, 2[of your]-ornate-window 1[in]-front,
+      [had the] cold-plum put_out [its]-flower[s] [or]-not_yet (yet)?
+    gloss_v2: |-
+      { [my] lord } = { from :<[my] {old countryside} (hometown)> } { come[s] };
+      [so] { [he] } = { surely know[s] :<{old countryside} (back home) state_of_affair[s]> };
+      { [on:] [the] {[he] [was]-come[-ing]_this_way} day} } = { [in:] {of :<[the] ornate window>} front }
+      = { cold plum } = {{ [had] put_out: flower } or { not_yet }}?
+    gloss_v1_with_different_grammatical_marker_gloss?:
+      lord 2from [my] (old)-countryside (hometown) [is]-1come[-ing]
+      [so] [he] must know 2[in]-(old)-countryside (back home) 1matter[s] (how things are going).
+      2[you were to]-come_this_way (you left) 1[on the]-day, 2[of your]-ornate-window 1[in]-front,
+      [had the] cold-plum put_out [its]-flower[s] [or]-not_yet (yet?)
+    gloss_zh_oriented: |-
+      lord { {from :{old countryside} (hometown)} comes };
+      { necessarily {know: {old countryside} matters} }.
+      {come day} { ornate window { front }}
+      {cold plum} { {put_out: flower} not_yet }
+    en: |-
+      My Lord comes from my hometown,
+      So he must know the state of affairs back home.
+      The day you were coming this way, before the ornate window,
+      Had the cold plum put out its flowers yet?
+- label:
+  text:
+    zh: |-
+      白日依山盡    黃河入海流    欲窮千里目    更上一層樓
+- label: 獨坐敬亭山 李白
+  text:
+    zh: |-
+      衆鳥高飛尽
+      孤雲独去閑
+      相看両不厭
+      子有敬亭山
 - text:
   - zh: |-
-    今日此相送
-    明年此相待
-    天上客星回，知君渡東海。
+      今日此相送
+      明年此相待
+      天上客星回
+      知君渡東海
+    gloss: |-
+      now-day (today) [at]-this_place 2-with_respect_to_the_person_at_hand (you) 1[I]-send_off.
+      bright-year (next year) [at]-this_place 2-with_respect_to_the_person_at_hand (you) 1[I]-wait_for.
+      [when] [in] heaven['s]-height[s] (the sky above) [the] guest_star come[s]_back_around,
+      [I will] know [that] [my]-lord [has] cross[ed] [the]-east-sea (East Sea).
+    gloss_v2: |-
+      {now day} (today) {at: this [place]} [I] { [:you] send_off }
+      { bright year } (next year) {[at:] this [place]}  [I] { [:you] wait_for}
+      { [when] :< {[in] heaven above} {[your] guest star} {come[s]_back_around} > },
+      I { [will] know :< {[my] lord} {[has] cross[ed] :<[the] {east sea} (East Sea)>} > }.
+    en: |- 
+      Today at this place I send you off,
+      Next year at this place I wait for you.
+      When, in the sky above, the guest star comes back around,
+      I will know that my lord has crossed the East Sea.
+    note: |-
+      how to gloss cases like xiang where the translation involves complex valency interactions?
+      it's simple when xiang means "mutually", but otherwise,
+      there is no one word it can be replaced with that even really approximates it.
+      A xiang B means A does B to you / me / [pronoun]
+      it could be sort of replaced by "with respect to the entity at hand"
+      but someone might not be able to guess the idiomatic translation easily provided just that one.
+
+      i guess the problem is fixed if
+        - the gloss doesn't assume part-of-speech matchups
+        - the gloss syntax doesn't force object to come after verb.
+
+      who knows if there are other similar problems this approach won't fix, but
+      at least this should work for now for xiang.
+
+      there is one last detail about xiang though--
+      is this gloss convention enough to mark it as an adverb in chinese?
+      maybe a totally different kind of additional gloss-like thing is necessary.
 -  title:
     zh: 村莊即事
     en: Present matters at the village
   urls: - http://www5a.biglobe.ne.jp/~shici/shi4_08/pbt_shi225.htm
   text:
   - gloss: |-
-      green [is] all_over mountain [and] field, [and] white fill[s the] river.
-      [in the] child-rule (cuckoo)['s] voice['s] midst, [the] rain [is] like smoke.
-      [in] hometown [and] village [in the] fourth month, relaxed people [are] few.
-      just_a_moment_ago [one got] done [with the] silkworm[s and] mulberry, [but] still [one will] stick_in-[the]-rice_field[s] (plant rice).
+      green [is]-all_over (covers) mountain [and] field; white fill[s the] river.
+      2[the] child-rule (cuckoo)['s] sound 1among, [the] rain [is] like smoke.
+      [in the] hometown (countryside) village [in the] fourth month, relaxed people [are] few.
+      2just_a_moment_ago 1[we got]-finish[ed with the] silkworm[s and] mulberry, [but] still [they will] stick_in-[the]-rice_field[s] (plant [the] rice).
     cleangloss: |-
-      green all_over mountain field, white fill river.
+      green all_over (covers) mountain field, white fill river.
       child-rule (cuckoo) voice midst, rain like smoke.
-      hometown village fourth month, relaxed people few.
+      hometown (countryside) village fourth month, still people [are] few.
       just_a_moment_ago done silkworm mulberry, still stick_in-[the]-rice_field[s] (plant rice).
     en: |-
-      Green covers mountain and field; white fills the rivers.
-      Among the calls of the cuckoo, the rain is like mist.
-      During April in the countryside villages, few are at rest.
-      Though we only just finished raising silkworms and planting mulberry, we are still to plant the rice.
+      Green covers mountain and field; white fills the river.
+      Among the sounds of the cuckoo, the rain is like smoke.
+      In the countryside village in the fourth month, still people are few.
+      Though they got finished with the silkworms and mulberry just a moment ago, they are still to plant the rice.
     zh: |-
       綠遍山原白滿川
       子規聲裏雨如煙
@@ -31,7 +133,7 @@
     jp: |-
       緑遍山原白満川
       子規声裏雨如煙
-      郷村四月間人少
+      郷村四月閑人少
       才了蚕桑又挿田
   notes: |-
       四月 in the lunar calendar places this poem at the end of spring.
@@ -115,18 +217,57 @@
     en: |-
       Below the pines, I asked the boy.
       He said, "My teacher went to pick [herbs] for medicine."
+    # "title": "月夜",
+    # # "author": "劉方平",
+# 更深月色半人家，北斗闌干南斗斜。今夜偏知春気暖，虫声新透緑窓紗。
+- author: 李冶
+  text:
+    - zh: |-
+      　　　　明月夜留別　李冶
+      離人無語月無聲，明月有光人有情。別後相思人似月，雲間水上到層城。
+      
+  #　　　　明月夜留別　李冶
+# 離人無語月無聲，明月有光人有情。別後相思人似月，雲間水上到層城。
+# http://tangshi.tuxfamily.org/liye/ly03.html
+# 　　　　寄朱放（一作昉）　李冶
+# 望水（一作遠）試登山，山高湖又闊。相思無曉夕，相望經年月。
+# 鬱鬱山木榮（一作青），綿綿野花發。別後無限情，相逢一時說。
+- title: 送姚員外
+  author: 薛濤
+  urls: - http://tangshi.tuxfamily.org/xuetao/xt22.html
+        - http://kanbunkenkyu88.blog-rpg.com/tou-josei/%E5%85%AB%E3%80%812.60%E3%80%80%E8%96%9B%E6%BF%A4%E3%80%80%E3%80%8A%E9%80%81%E5%A7%9A%E5%93%A1%E5%A4%96%E3%80%80%E3%80%8B%E3%80%80%E6%BC%A2%E6%96%87%E5%A7%94%E5%93%A1%E4%BC%9Akan
+        - http://blog.livedoor.jp/kanbuniinkai10-godaisoui/archives/28154087.html
+        - https://cjjc.weblio.jp/content/%E7%88%BE%E4%BE%86
+        - http://www.barbara-maag.de/Frauenlyrik/Xue%20Tao%20Song%20Yao%20Yuan%20Wai.htm
+
+  text:
+    zh: -|
+      萬條江柳早秋枝
+      褭地翻風色未衰
+      欲折爾來將贈別
+      莫教煙月兩鄉悲
+    en: |-
+      In a thousand streaks the branches of the early autumn willows
+      Brush the ground and wave in the wind, their color not yet having waned.
+      I was going to break one off and present it as a parting gift,
+      But let's not allow the misty moon to make us sad in both our villages.
 - text:
   - zh: |-
       床前明月光
       疑是地上霜
       舉頭望明月
       低頭思故鄉
-    en: |-
+    gloss: |-
       [my]-bed^2-before^1, bright-moon-light.
       [I] suspect[ed]:{it [was] 2{^[the]-earth-^upon}-1frost}.
       [I]-raise: [my]-head [and] gaze-[at the]: bright-moon.
       [I]-lower: [my]-head [and] remember [my]-2erstwhile-home.
-- text:
+    en: |-
+      Before my bed, the light of the bright moon.
+      I had suspected it was frost on the earth.
+      I raise my head and gaze at the bright moon.
+      I lower my head and remember back home.
+- text:x
   - zh: |-
       有梅無雪不精神
       有雪無詩俗了人
@@ -201,12 +342,66 @@
     日色冷青松
     薄暮空潭曲
     安禪制毒龍
+- label: 舟夜一章　海印
+  text:
+  - zh: |-
+      水色連天色，風聲益浪聲。旅人歸思苦，漁叟夢魂驚。
+    en:
+      The color of the water joins with the color of the sky;
+      The sound of the wind adds to the sound of the waves.
+      The traveler is tormented in thoughts of homecoming;
+      The old fisherman is startled in his dreaming spirit.
+  - zh: |-
+      舉棹雲先到，移舟月逐行。旋吟詩句罷，猶見遠山橫。
+    en: |-
+      Oar raised, the clouds get ahead.
+      Boat adrift, the moon goes in pursuit.
+      Spinning, I recite a verse from a poem, and break off;
+      I still can see the mountains sprawling into the distance.
+
 
 
       
 # 長安道，人無衣，馬無草，何不歸來山中老
 # 黃鳥啼多春日高，紅芳開盡井邊桃。美人手暖裁衣易，片片輕雲落剪刀。
 # 水有青蓮沙有金，老僧於此獨觀心。愁人欲寄中峰宿，只恐白猿啼夜深。
+
+# https://blog.goo.ne.jp/tiandaoxy/e/5407bd15698e3a1e419cc28812556d33
+# http://chinesepoetryinenglishverse.blogspot.com/2013/04/years-of-famine-family-fields-bare-hard.html
+# 時難年荒世業空，弟兄羈旅各西東。田園寥落干戈後，骨肉流離道路中。弔影分為千里雁，辭根散作九秋蓬。共看明月應垂淚，一夜鄉心五處同。
+
+# https://100tangpoems.wordpress.com/2017/02/05/the-garden-of-the-golden-valley-du-mu/
+# 繁華事散逐香塵，流水無情草自春。日暮東風怨啼鳥，落花猶似墜樓人。
+
+
+# 　　　　送閻二十六赴剡縣　李冶
+# 流水閶門外，孤舟日復西。離情遍芳草，無處不萋萋。
+# 妾夢經吳苑，君行到剡溪。歸來重相訪，莫學阮郎迷。
+# [頁]卷,冊....[9059]805,23
+# 第12筆
+# 　　　　得閻伯鈞書　李冶
+# 情來對鏡懶梳頭，暮雨蕭蕭庭樹秋。莫怪闌干垂玉箸，只緣惆悵對銀鉤。
+# [頁]卷,冊....[9059]805,23
+# 第13筆
+# 　　　　結素魚貽友人　李冶
+# 尺素如殘雪，結為雙鯉魚。欲知心裏事，看取腹中書。
+# [頁]卷,冊....[9059]805,23
+# 第14筆
+# 　　　　偶居　李冶
+# 心遠浮雲知不還，心雲併在有無間。狂風何事相搖蕩，垂向南山復北山。
+# [頁]卷,冊....[9059]805,23
+# 第15筆
+# 　　　　明月夜留別　李冶
+# 離人無語月無聲，明月有光人有情。別後相思人似月，雲間水上到層城。
+# [頁]卷,冊....[9059]805,23
+# 第16筆
+# 　　　　春閨怨[9059]　李冶
+# 百尺井欄上，數株桃已紅。念君遼海北，拋妾宋家東。
+# [頁]卷,冊....[9060]805,23
+# 第17筆
+
+
+
 
 # 北斗七星高
 # https://kanbun.info/syubu/toushisen299.html
@@ -251,3 +446,353 @@
 
 # 林暗草驚風
 # http://www5a.biglobe.ne.jp/~shici/shi4_08/rs499.htm
+
+# 家住孟津河
+# http://www5a.biglobe.ne.jp/~shici/shi4_08/rs530.htm
+
+# http://www5a.biglobe.ne.jp/~shici/shi4_08/rs529.htm
+# 已見寒梅發
+
+# http://www2.odn.ne.jp/kotowaza/BBS/KANSI/kansi-meigen-meiku/11~20/21~30/KANSI/4-kansi-yurai/31~40/54-uikou.htm
+# 朱雀橋辺野草花
+- title: sanzijing
+  zh: |-
+    人之初，性本善。
+    性相近，習相遠。
+- title: sanzijing
+  zh: |-
+    苟不教，性乃遷。
+    教之道，貴以專。
+- title: sanzijing
+  zh: |-
+    昔孟母，擇鄰處。
+    子不學，斷機杼。
+- title: sanzijing
+  zh: |-
+    竇燕山，有義方。
+    教五子，名俱揚。
+- title: sanzijing
+  zh: |-
+    養不教，父之過。
+    教不嚴，師之惰。
+- title: sanzijing
+  zh: |-
+    子不學，非所宜。
+    幼不學，老何為。
+
+    玉不琢，不成器。
+    人不學，不知義。
+- title: sanzijing
+  zh: |-
+    為人子，方少時。
+    親師友，習禮儀。
+
+    香九齡，能溫席。
+    孝於親，所當執。
+
+    融四歲，能讓梨。
+    弟於長，宜先知。
+- title: sanzijing
+  zh: |-
+    首孝弟，次見聞。
+    知某數，識某文。
+
+    一而十，十而百。
+    百而千，千而萬。
+- title: sanzijing
+  zh: |-
+    三才者，天地人。
+    三光者，日月星。
+  en: |-
+    As for what the Three Faculties are, they are heaven, earth, and man.
+    As for what the Three Lights are, they are the sun, the moon, and the stars.
+- title: sanzijing
+  zh: |-
+    三綱者，君臣義。
+    父子親，夫婦順。
+- title: sanzijing
+  zh: |-
+    曰春夏，曰秋冬。
+    此四時，運不窮。
+- title: sanzijing
+  zh: |-
+    曰南北，曰西東。
+    此四方，應乎中。
+- title: sanzijing
+  zh: |-
+    曰水火，木金土。
+    此五行，本乎數。
+- title: sanzijing
+  zh: |-
+    曰仁義，禮智信。
+    此五常，不容紊。
+- title: sanzijing
+  zh: |-
+    稻粱菽，麥黍稷。
+    此六穀，人所食。
+- title: sanzijing
+  zh: |-
+    馬牛羊，雞犬豕。
+    此六畜，人所飼。
+- title: sanzijing
+  zh: |-
+    曰喜怒，曰哀懼。
+    愛惡欲，七情具。
+- title: sanzijing
+  zh: |-
+    匏土革，木石金。
+    與絲竹，乃八音。
+- title: sanzijing
+  zh: |-
+    高曾祖，父而身。
+    身而子，子而孫。
+
+    自子孫，至玄曾。
+    乃九族，人之倫。
+- title: sanzijing
+  zh: |-
+    父子恩，夫婦從。
+    兄則友，弟則恭。
+
+    長幼序，友與朋。
+    君則敬，臣則忠。
+
+    此十義，人所同。
+- title: sanzijing
+  zh: |-
+    凡訓蒙，須講究。
+    詳訓詁，名句讀。
+- title: sanzijing
+  zh: |-
+    為學者，必有初。
+    小學終，至四書。
+
+    論語者，二十篇。
+    群弟子，記善言。
+
+    孟子者，七篇止。
+    講道德，說仁義。
+
+    作中庸，子思筆。
+    中不偏，庸不易。
+
+    作大學，乃曾子。
+    自修齊，至平治。
+- title: sanzijing
+  zh: |-
+    孝經通，四書熟。
+    如六經，始可讀。
+
+    詩書易，禮春秋。
+    號六經，當講求。
+- title: sanzijing
+  zh: |-
+    有連山，有歸藏。
+    有周易，三易詳。
+
+    有典謨，有訓誥。
+    有誓命，書之奧。
+- title: sanzijing
+  zh: |-
+    我周公，作周禮。
+    著六官，存治體。
+
+    大小戴，注禮記。
+    述聖言，禮樂備。
+
+    曰國風，曰雅頌。
+    號四詩，當諷詠。
+
+    詩既亡，春秋作。
+    寓褒貶，別善惡。
+- title: sanzijing
+  zh: |-
+    三傳者，有公羊。
+    有左氏，有穀梁。
+
+    經既明，方讀子。
+    撮其要，記其事。
+
+    五子者，有荀楊。
+    文中子，及老莊。
+
+    經子通，讀諸史。
+    考世系，知終始。
+- title: sanzijing
+  zh: |-
+    自羲農，至黃帝。
+    號三皇，居上世。
+
+    唐有虞，號二帝。
+    相揖遜，稱盛世。
+
+    夏有禹，商有湯。
+    周文武，稱三王。
+    考世系，知終始。
+- title: sanzijing
+  zh: |-
+    夏傳子，家天下。
+    四百載，遷夏社。
+
+    湯伐夏，國號商。
+    六百載，至紂亡。
+
+    周武王，始誅紂。
+    八百載，最長久。
+
+    周轍東，王綱墮。
+    逞干戈，尚遊說。
+
+    始春秋，終戰國。
+    五霸強，七雄出。
+
+    嬴秦氏，始兼并。
+    傳二世，楚漢爭。
+
+    高祖興，漢業建。
+    至孝平，王莽篡。
+
+    光武興，為東漢。
+    四百年，終於獻。
+
+    蜀魏吳，爭漢鼎。
+    號三國，迄兩晉。
+
+    宋齊繼，梁陳承。
+    為南朝，都金陵。
+
+    北元魏，分東西。
+    宇文周，與高齊。
+
+    迨至隋，一土宇。
+    不再傳，失統緒。
+- title: sanzijing
+  zh: |-
+    唐高祖，起義師。
+    除隋亂，創國基。
+
+    二十傳，三百載。
+    梁滅之，國乃改。
+
+    梁唐晉，及漢周。
+    稱五代，皆有由。
+
+    炎宋興，受周禪。
+    十八傳，南北混。
+- title: sanzijing
+  zh: |-
+    遼與金，皆稱帝。
+    元滅金，絕宋世。
+
+    蒞中國，兼戎狄。
+    九十年，國祚廢。
+
+    太祖興，國大明。
+    號洪武，都金陵。
+
+    迨成祖，遷燕京。
+    十七世，至崇禎。
+
+    權閹肆，寇如林。
+    至李闖，神器焚。
+
+    清太祖，膺景命。
+    靖四方，克大定。
+- title: sanzijing
+  zh: |-
+    廿一史，全在茲。
+    載治亂，知興衰。
+
+    讀史書，考實錄。
+    通古今，若親目。
+
+    口而誦，心而惟。
+    朝於斯，夕於斯。
+- title: sanzijing
+  zh: |-
+    昔仲尼，師項橐。
+    古聖賢，尚勤學。
+
+    趙中令，讀魯論。
+    彼既仕，學且勤。
+- title: sanzijing
+  zh: |-
+    披蒲編，削竹簡。
+    彼無書，且知勉。
+- title: sanzijing
+  zh: |-
+    頭懸梁，錐刺股。
+    彼不教，自勤苦。
+- title: sanzijing
+  zh: |-
+    如囊螢，如映雪。
+    家雖貧，學不輟。
+
+    如負薪，如掛角。
+    身雖勞，猶苦卓。
+- title: sanzijing
+  zh: |-
+    蘇老泉，二十七。
+    始發憤，讀書籍。
+
+    彼既老，猶悔遲。
+    爾小生，宜早思。
+
+    若梁灝，八十二。
+    對大廷，魁多士。
+
+    彼既成，眾稱異。
+    爾小生，宜立志。
+- title: sanzijing
+  zh: |-
+    瑩八歲，能詠詩。
+    泌七歲，能賦棋。
+
+    彼穎悟，人稱奇。
+    爾幼學，當效之。
+- title: sanzijing
+  zh: |-
+    蔡文姬，能辨琴。
+    謝道韞，能詠吟。
+
+    彼女子，且聰敏。
+    爾男子，當自警。
+
+    唐劉晏，方七歲。
+    舉神童，作正字。
+
+    彼雖幼，身己仕。
+    爾幼學，勉而致。
+
+    有為者，亦若是。
+- title: sanzijing
+  zh: |-
+    犬守夜，雞司晨。
+    苟不學，曷為人。
+
+    蠶吐絲，蜂釀蜜。
+    人不學，不如物。
+- title: sanzijing
+  zh: |-
+    幼而學，壯而行。
+    上致君，下澤民。
+
+    揚名聲，顯父母。
+    光於前，裕於後。
+- title: sanzijing
+  zh: |-
+    人遺子，金滿籯。
+    我教子，惟一經。
+
+    勤有功，戲無益。
+    戒之哉，宜勉力。
+
+
+
+
+
+
+
+# http://kanshi.mizuo.info/search/label/%E5%8D%83%E5%AE%B6%E8%A9%A9
+# https://zh.wikisource.org/wiki/%E5%8D%83%E5%AE%B6%E8%A9%A9/%E5%8D%B7%E4%B8%89
+# http://www.dang.idv.tw/memo3.htm # taiwanese?
